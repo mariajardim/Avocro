@@ -5,6 +5,39 @@ header {
     background-color: orange;
     }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 15%;
+    height: 50px;
+    margin: 25px;
+    margin-left: 5%;
+    background-color: purple;
+    float: left;
+    }
+
+.icones {
+    width: 20%;
+    height: 50px;
+    margin: 25px;
+    margin-right: 5%;
+    background-color: lightblue;
+    float: right;
+    }
+
+.icones li {
+    width: 20%;
+    height: 30px;
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
 .slider {
     width: 100%;
     height: 500px;
