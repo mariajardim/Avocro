@@ -43,6 +43,14 @@ ul{
     height: 500px;
     float: left;
     background-color: orangered;
+    }   
+
+.novidades {
+    width: 50%;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: lightseagreen;
     }
 
  .cx1,
