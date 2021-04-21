@@ -1,0 +1,31 @@
+.header {
+    width: 100‰;
+    background-color: orange;
+    }
+
+.slider {
+    width: 100‰;
+    background-color: orangered;
+    }
+
+ .cx1,
+ .cx2 {
+    width: 100‰;
+    background-color: blue;
+    }
+
+.subcx1,
+.subcx2 {
+       width: 70‰;
+       background-color:pink;
+       }
+
+.videos {
+    width: 100‰;
+    background-color: green;
+    }
+
+.footer {
+    width: 100‰;
+    background-color: yellow;
+    }
