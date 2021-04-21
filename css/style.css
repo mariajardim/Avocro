@@ -22,7 +22,7 @@ header {
 
 .desconto {
     width: 100%;
-    height: 500px;
+    height: 200px;
     float: left;
     background-color: white;
     }
@@ -32,21 +32,21 @@ header {
     width: 70%;
     height: 400px;
     float: left;
-    margin: 30px;
+    margin: 50px;
     margin-left: 15%;
     background-color:pink;
     }
 
 .videos {
     width: 100%;
-    height: 500px;
+    height: 200px;
     float: left;
     background-color: green;
     }
 
 footer {
     width: 100%;
-    height: 500px;
+    height: 100px;
     float: left;
     background-color: yellow;
     }
