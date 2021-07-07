@@ -2,11 +2,11 @@ header {
     width: 100%;
     height: 100px;
     float: left;
-    background-color: orange;
+    background-color: green;
     }
 
 ul{
-    margin: 0;
+    margin: 150px;
     padding: 0;
 }
 
@@ -40,7 +40,7 @@ ul{
 
 .slider {
     width: 100%;
-    height: 700px;
+    height: 668px;
     float: left;
     background-color: orangered;
     }   
@@ -54,38 +54,38 @@ ul{
     }
 
  
- .cx1 {
+ .cx12 {
     width: 100%;
-    height: 600px;
+    height: 768px;
     float: left;
     background-color: blue;
     }
 
     .subcx1 {
         width: 50%;
-        height: 300px;
+        height: 768px;
         float: left;
-        margin: 50px;
-        margin-left: 15%;
+        margin: 0px;
+        margin-left: 0%;
         background-color:black;
         }
     
+        .subcx2 {
+            width: 50%;
+            height: 768px;
+            float: left;
+            margin: 0px;
+            margin-left: 0%;
+            background-color:pink;
+            }
+    
 
-.cx2 {
+.cx3 {
         width: 100%;
-        height: 600px;
+        height: 768px;
         float: left;
         background-color: purple;
         }
-
-        .subcx2 {
-            width: 50%;
-            height: 300px;
-            float: left;
-            margin: 50px;
-            margin-left: 15%;
-            background-color:pink;
-            }
 
 
 .desconto {
@@ -97,11 +97,20 @@ ul{
 
 .destaques {
         width: 100%;
-        height: 700px;
+        height: 1050px;
         float: left;
         background-color: yellow;
         }
-
+        .titulo {
+            width: 20%;
+            height: 50px;
+            float: left;
+            background-color:blueviolet;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 40%;
+            margin-right: 40%;
+            }
 
 .destaques li {
     width: calc(33.33% - 20px);
