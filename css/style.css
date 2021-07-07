@@ -5,7 +5,7 @@ header {
     background-color: orange;
     }
 
-ul{
+.icones ul{
     margin: 0px;
     padding: 0;
 }
@@ -111,7 +111,12 @@ ul{
      margin-bottom: 50px;
      margin-left: 40%;
      margin-right: 40%;
-            }
+     }
+
+.destaques ul{
+    margin: 150px;
+    padding: 0;
+    }
 
 .destaques li {
     width: calc(33.33% - 20px);
@@ -119,6 +124,7 @@ ul{
     float: left;
     list-style: none;
     margin: 10px;
+    margin-bottom: 60px;
     /* margin-bottom: 10px; */
     text-align: center;
     background: red;
