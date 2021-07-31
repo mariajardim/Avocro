@@ -179,15 +179,30 @@
     margin-bottom: 5px;
     }
 
+#desconto .desconto {
+    width: 50%;
+    height: 100%;
+    float: left;
+  /*  background-color: burlywood; */
+    margin-bottom: 5px;
+    }
+
     #desconto p {
         font-size: 36px;
         color: white;
-        margin-left: 100px;
-        margin-top: 115px;
-        margin-bottom: 115px;
+        margin-left: 50px;
+        margin-top: 15%;
         float: left;
-        width: calc(50% - 50px);
+        width: calc(100% - 50px);
         }
+
+#desconto .areabotao {
+    width: 50%;
+    height: 100%;
+    float: left;
+  /*  background-color: blue; */
+    margin-bottom: 5px;
+    }
    
     #desconto button {
         border-radius: 30px;
@@ -195,14 +210,15 @@
         padding-left: 30px;
         padding-right: 30px;
         float: left;
-        margin-top: 115px;
-        margin-right: 200px;
+        margin-top: 15%;
+        margin-right: 25%;
+        width: 50%;
         float: right;
         }
 
 #destaques {
         width: 100%;
-        height: 1050px;
+        height: 2050px;
         float: left;
         background-color: yellow;
         }
@@ -210,7 +226,6 @@
 #destaques .titulo {
      width: 20%;
      height: 50px;
-     float: left;
      background-color:blueviolet;
      margin-top: 50px;
      margin-bottom: 50px;
@@ -218,12 +233,36 @@
      margin-right: 40%;
      }
 
-#destaques ul{
-    margin: 150px;
+     #destaques .titulo p {
+        font-size: 36px;
+        color: brown;
+        text-align: center;
+        }
+
+#destaques .filtros {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    }  
+
+    #destaques .filtros ul {
+        margin: 50px;
+        padding: 0;
+        }  
+
+    #destaques .filtros li {
+        font-size: 21px;
+        float: left;
+        list-style: none;
+        margin-right: 35px;
+        } 
+
+#destaques .produtos ul{
+    margin: 50px;
     padding: 0;
     }
 
-#destaques li {
+#destaques .produtos li {
     width: calc(33.33% - 20px);
     height: 230px;
     float: left;
