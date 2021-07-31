@@ -17,9 +17,10 @@
 
 #header {
     width: 100%;
-    height: 122px;
+   /* height: 122px; */
     float: left;
-    background-color: orange;
+  /*  background-color: orange; */
+    position: fixed;
     }
 
 #header .logo {
@@ -37,7 +38,7 @@
     margin: 25px;
     margin-right: 5%;
     float: right;
-    background-color: lightblue;
+   /* background-color: lightblue;*/
     }
 
 #header .icones ul{
@@ -47,17 +48,17 @@
 
 #header .icones li {
     width: 20%;
-    height: 30px;
     float: left;
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    font-size: 25px;
     }
 
 #slider {
     width: 100%;
-    height: 668px;
+    height: 768px;
     float: left;
     background-color: orangered;
     }   
@@ -67,42 +68,106 @@
     height: 250px;
     margin-top: 225px;
     margin-left: 125px;
-    background-color: lightseagreen;
+   /* background-color: lightseagreen; */
     }
 
+#slider .novidades1 h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: white;
+    }
  
-#categorias .cx12 {
-    width: 100%;
+#slider .novidades1 h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: white;
+    }
+
+#slider .novidades1 ul{
+    margin: 0px;
+    padding: 0;
+    }
+
+#slider .novidades1 li {
+    font-size: 21px;
+    float: left;
+    list-style: none;
+    margin-right: 35px;
+    color: white;
+    }
+
+#categorias .cx1 {
+    width: 50%;
     height: 768px;
     float: left;
-    background-color: blue;
+    background-color: white;
     }
 
 #categorias .subcx1 {
-    width: 50%;
-    height: 768px;
+    width: 100%;
+    height: 758px;
     float: left;
-    margin: 0px;
     margin-left: 0%;
     background-color:black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     }
+
+    #categorias .cx1 p {
+        float: left;
+        width: calc(100% - 60px);
+        font-size: 48px;
+        margin-right: 60px;
+        margin-top: 150px;
+        color: white;
+        text-align: right;
+        }
     
+#categorias .cx2 {
+        width: 50%;
+        height: 768px;
+        float: left;
+        background-color: white;
+        }
+
 #categorias .subcx2 {
-    width: 50%;
-    height: 768px;
+    width: 100%;
+    height: 758px;
     float: left;
-    margin: 0px;
-    margin-left: 0%;
     background-color:pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
     }
     
+    #categorias .cx2 p {
+        float: left;
+        width: calc(100% - 60px);
+        font-size: 48px;
+        margin-left: 60px;
+        margin-top: 535px;
+        margin-bottom: 150px;
+        color: white;
+        }
 
 #categorias .cx3 {
     width: 100%;
     height: 768px;
     float: left;
-    background-color: purple;
+    background-color: peachpuff;
     }
+
+    #categorias .cx3 p {
+        float: left;
+        width: 100%;
+        font-size: 48px;
+        width: 100%;
+        margin-top: 190px;
+        color: white;
+        position: absolute;
+        text-align: center;
+        }
 
 
 #desconto {
@@ -111,6 +176,7 @@
     float: left;
     background-color: white;
     }
+
 
 #destaques {
         width: 100%;
