@@ -172,11 +172,19 @@
 
 #desconto {
     width: 100%;
-    height: 200px;
+    height: 219px;
     float: left;
-    background-color: white;
+    background-color: pink;
     }
 
+    #desconto button {
+        border-radius: 10px;
+        font-size: 36px;
+        }
+
+    #desconto p {
+        font-size: 36px;
+        }
 
 #destaques {
         width: 100%;
