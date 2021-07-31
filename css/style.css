@@ -1,16 +1,28 @@
-header {
+ /* RESET */
+
+ html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+ dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+ a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+ strong, sub, sup, tt, var, legend, fieldset {
+     margin: 0;
+     padding: 0;
+ }
+ img, fieldset {
+     border: 0;
+ }
+ 
+  /* end RESET */
+ 
+  /* FORMAT PAGE  */
+
+#header {
     width: 100%;
-    height: 100px;
+    height: 122px;
     float: left;
     background-color: orange;
     }
 
-.icones ul{
-    margin: 0px;
-    padding: 0;
-}
-
-.logo {
+#header .logo {
     width: 15%;
     height: 50px;
     margin: 25px;
@@ -19,7 +31,7 @@ header {
     float: left;
     }
 
-.icones {
+#header .icones  {
     width: 20%;
     height: 50px;
     margin: 25px;
@@ -28,7 +40,12 @@ header {
     background-color: lightblue;
     }
 
-.icones li {
+#header .icones ul{
+        margin: 0px;
+        padding: 0;
+    }
+
+#header .icones li {
     width: 20%;
     height: 30px;
     float: left;
@@ -38,71 +55,71 @@ header {
     text-align: center;
     }
 
-.slider {
+#slider {
     width: 100%;
     height: 668px;
     float: left;
     background-color: orangered;
     }   
 
-.novidades1 {
+#slider .novidades1 {
     width: 50%;
     height: 250px;
-    margin-top: 50px;
-    margin-left: 25%;
+    margin-top: 225px;
+    margin-left: 125px;
     background-color: lightseagreen;
     }
 
  
- .cx12 {
+#categorias .cx12 {
     width: 100%;
     height: 768px;
     float: left;
     background-color: blue;
     }
 
-    .subcx1 {
-        width: 50%;
-        height: 768px;
-        float: left;
-        margin: 0px;
-        margin-left: 0%;
-        background-color:black;
-        }
+#categorias .subcx1 {
+    width: 50%;
+    height: 768px;
+    float: left;
+    margin: 0px;
+    margin-left: 0%;
+    background-color:black;
+    }
     
-        .subcx2 {
-            width: 50%;
-            height: 768px;
-            float: left;
-            margin: 0px;
-            margin-left: 0%;
-            background-color:pink;
-            }
+#categorias .subcx2 {
+    width: 50%;
+    height: 768px;
+    float: left;
+    margin: 0px;
+    margin-left: 0%;
+    background-color:pink;
+    }
     
 
-.cx3 {
-        width: 100%;
-        height: 768px;
-        float: left;
-        background-color: purple;
-        }
+#categorias .cx3 {
+    width: 100%;
+    height: 768px;
+    float: left;
+    background-color: purple;
+    }
 
 
-.desconto {
+#desconto {
     width: 100%;
     height: 200px;
     float: left;
     background-color: white;
     }
 
-.destaques {
+#destaques {
         width: 100%;
         height: 1050px;
         float: left;
         background-color: yellow;
         }
 
-.titulo {
+#destaques .titulo {
      width: 20%;
      height: 50px;
      float: left;
@@ -113,12 +130,12 @@ header {
      margin-right: 40%;
      }
 
-.destaques ul{
+#destaques ul{
     margin: 150px;
     padding: 0;
     }
 
-.destaques li {
+#destaques li {
     width: calc(33.33% - 20px);
     height: 230px;
     float: left;
@@ -130,14 +147,14 @@ header {
     background: red;
     }
 
-.youtube {
+#youtube {
     width: 100%;
     height: 200px;
     float: left;
     background-color: green;
     }
 
-footer {
+#footer {
     width: 100%;
     height: 100px;
     float: left;
