@@ -18,9 +18,8 @@
 
 #header {
     width: 100%;
-   /* height: 122px; */
+    height: 122px;
     float: left;
-  /*  background-color: orange; */
     position: fixed;
     }
 
@@ -399,7 +398,7 @@
         justify-content: center;
         }
        
-        #youtube button {
+        #youtube .areabotao a {
             border-radius: 30px;
             font-size: 30px;
             padding-left: 30px;
@@ -410,7 +409,7 @@
             background : #FFFFFF;
             color : #3F211A;
             font-family: 'Open Sans', sans-serif;
-            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000') ;
+            border:solid 1px #ccc; 
             }
 
 #footer {

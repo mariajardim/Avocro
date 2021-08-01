@@ -4,5 +4,5 @@
 </div>
 
 <div class="areabotao">
-    <button type="button" class="btn btn-primary">Subscrever Canal</button>
+<a href="https://www.youtube.com/" type="button" class="btn btn-primary" data-ga-label="Subscrever Canal">Subscrever Canal</a>    
 </div>
