@@ -172,7 +172,7 @@
 
 #desconto {
     width: 100%;
-    height: 285px;
+    height: 230px;
     float: left;
     background-color: pink;
     margin-bottom: 5px;
@@ -190,7 +190,7 @@
         font-size: 36px;
         color: white;
         margin-left: 60px;
-        margin-top: 15%;
+        margin-top: 12.5%;
         float: left;
         width: calc(100% - 50px);
         }
@@ -209,7 +209,7 @@
         padding-left: 30px;
         padding-right: 30px;
         float: left;
-        margin-top: 15%;
+        margin-top: 12.5%;
         margin-right: 25%;
         width: 50%;
         float: right;
@@ -336,10 +336,50 @@
 
 #youtube {
     width: 100%;
-    height: 200px;
+    height: 230px;
     float: left;
     background-color: green;
+    margin-bottom: 5px;
     }
+
+
+    #youtube .canalyoutube {
+        width: 50%;
+        height: 100%;
+        float: left;
+       /* background-color: burlywood; */
+        margin-bottom: 5px;
+        }
+    
+        #youtube .canalyoutube p {
+            font-size: 36px;
+            color: white;
+            margin-left: 60px;
+            margin-top: 12.5%;
+            float: left;
+            width: calc(100% - 50px);
+            }
+    
+    #youtube .areabotao {
+        width: 50%;
+        height: 100%;
+        float: left;
+        /* background-color: blue; */
+        margin-bottom: 5px;
+        }
+       
+        #youtube button {
+            border-radius: 30px;
+            font-size: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            float: left;
+            margin-top: 12.5%;
+            margin-right: 25%;
+            width: 50%;
+            float: right;
+            }
+
 
 #footer {
     width: 100%;
