@@ -1,4 +1,6 @@
-<div class="logo"></div>
+<div class="logo">
+    <b>Avó</b>Cró
+</div>
 <div class="icones">
     <ul>
         <li> 

@@ -1,5 +1,5 @@
 <div class="novidades1"> 
-    <h1>Nova Coleção</h1>
+    <h1><b>Nova Coleção</b></h1>
     <h2>Verão 2021 </h2>
         <ul>
             <li>Roupa</li>
