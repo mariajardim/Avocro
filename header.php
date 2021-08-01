@@ -1,5 +1,5 @@
 <div class="logo">
-    <b>Avó</b>Cró
+    <a href="./"><b>Avó</b>Cró</a>
 </div>
 <div class="icones">
     <ul>

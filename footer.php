@@ -1,15 +1,15 @@
 <div class="parte1">
     <h3>NOME DA EMPRESA </h3>
     <ul>
-        <li>Quem Somos? </li>
+        <li><a href="quemsomos.php?">Quem Somos</a></li>
     </ul>
 </div>
 
 <div class="parte2">
     <h3>LEGALIDADES </h3>
     <ul>
-        <li>Política de Privacidade </li>
-        <li>Política de Cookies </li>
+        <li><a href="politica.php?">Política de Privacidade</a></li>
+        <li><a href="cookies.php?">Política de Cookies</a></li>
     </ul>
 </div>
 

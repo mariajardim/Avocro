@@ -18,9 +18,16 @@
       <?php include('header.php'); ?>
     </div>
 
-    <div id="home">
-        <?php include('home.php'); ?>
+    <div class="branco">
     </div>
+
+    <div class="quemsomos">
+        <h1><b>Quem Somos?</b></h1>
+        <p>A Avó Cró é uma loja online que vende produtos feitos de à mão com o processo croché. 
+            A nossa empresa tem como objetivo mostrar a paixão pelo croché através dos seu artigos sufesticados e modernos. </p>
+    </div>
+
+    <div class="loja"></div>
     
     <div id="footer">
           <?php include('footer.php'); ?>
@@ -28,3 +35,4 @@
 
 </body>
 </html>
+
