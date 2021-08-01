@@ -11,16 +11,143 @@
     </ul>
 </div>
 
-<div class="produtos">
+<div class="produtos"> 
     <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
-        <li>E</li>
-        <li>F</li>
-        <li>G</li>
-        <li>H</li>
-        <li>I</li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="imagem">Imagem</div>
+            <div class="imagemdescricao">
+                <div class="produtodescricao"> 
+                    <p>Produto <br>
+                    Preço</p>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="coracao"> 
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </li>
     </ul>
 </div>

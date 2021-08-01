@@ -4,8 +4,7 @@
  dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
  a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
  strong, sub, sup, tt, var, legend, fieldset {
-     margin: 0;
-     padding: 0;
+    padding: 0;
  }
  img, fieldset {
      border: 0;
@@ -190,7 +189,7 @@
     #desconto p {
         font-size: 36px;
         color: white;
-        margin-left: 50px;
+        margin-left: 60px;
         margin-top: 15%;
         float: left;
         width: calc(100% - 50px);
@@ -218,19 +217,20 @@
 
 #destaques {
         width: 100%;
-        height: 2050px;
+        height: 1750px;
         float: left;
-        background-color: yellow;
+        background-color: lightgoldenrodyellow;
         }
 
 #destaques .titulo {
      width: 20%;
      height: 50px;
-     background-color:blueviolet;
+     /* background-color:blueviolet; */
      margin-top: 50px;
      margin-bottom: 50px;
      margin-left: 40%;
      margin-right: 40%;
+     padding: 0;
      }
 
      #destaques .titulo p {
@@ -242,37 +242,97 @@
 #destaques .filtros {
     width: 100%;
     height: 50px;
-    background-color: black;
+  /*  background-color: black; */
     }  
 
     #destaques .filtros ul {
-        margin: 50px;
+        margin-left: 158px;
         padding: 0;
+        margin-right: 158px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 50px;
         }  
 
     #destaques .filtros li {
         font-size: 21px;
         float: left;
         list-style: none;
-        margin-right: 35px;
+        margin-right: 40px;
+        margin-left: 10px;
         } 
 
+#destaques .produtos {
+   /*  background-color: teal; */
+    height: 1450px;
+    } 
+
 #destaques .produtos ul{
-    margin: 50px;
-    padding: 0;
+        margin-left: 158px;
+        padding: 0;
+        margin-right: 158px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 1450px;
     }
 
 #destaques .produtos li {
     width: calc(33.33% - 20px);
-    height: 230px;
+    height: 463px;
     float: left;
     list-style: none;
     margin: 10px;
-    margin-bottom: 60px;
     /* margin-bottom: 10px; */
     text-align: center;
     background: red;
     }
+
+#destaques li .imagem {
+    height: 325px;
+    width: 100%;
+    text-align: center;
+    background: greenyellow;
+    }
+   
+#destaques li .imagemdescricao {
+    height: 138px;
+    width: 100%;
+    background: pink;
+    }
+
+    #destaques li .produtodescricao {
+        background: white;
+        margin-left: 5px;
+        margin-top: 25px;
+        float: left;
+        text-align: left;
+        }
+
+        #destaque li .produtodescricao p {
+            font-size: 16px;
+            margin-left: 25px;
+            }
+
+        #destaque li .produtodescricao .far {
+            font-size: 16px;
+            margin-bottom: 25px;
+            margin-right: 10px;
+            padding: right 20;
+            }
+           
+    #destaques li .coracao {
+        width: calc(50% - 5px);
+       /* background: rgb(38, 32, 99); */
+        margin-right: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        float: right;
+        }
+
+        #destaques .coracao .far {
+            float: right;
+            font-size: 30px;
+            }
 
 #youtube {
     width: 100%;
