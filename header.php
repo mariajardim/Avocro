@@ -4,19 +4,22 @@
 <div class="icones">
     <ul>
         <li> 
-            <i class="fas fa-search"></i>
+            <a href="pesquisa.php?"><i class="fas fa-search"></i></a>
         </li>
         <li> 
-            <i class="fas fa-heart"></i>
+            <a href="wishlist.php?"><i class="fas fa-heart"></i></a>
         </li>
         <li> 
-            <i class="fas fa-shopping-bag"></i>
+            <a href="compras.php?"><i class="fas fa-shopping-bag"></i></a>
         </li>
         <li> 
-            <i class="fas fa-user-alt"></i>
+            <a href="#perfil.php?"><i class="fas fa-user-alt"></i></a>
         </li>
         <li> 
-            <i class="fas fa-bars"></i>
+            <div id="menu">
+                <?php include('menu.php'); ?>
+            </div>
+
         </li>
     </ul>
  </div>
