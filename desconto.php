@@ -3,5 +3,5 @@
 </div>
 
 <div class="areabotao">
-    <button type="button" class="btn btn-primary">#ILOVEAVOCRO</button>
+    <a type="button" class="btn btn-primary">#ILOVEAVOCRO</a>
 </div>

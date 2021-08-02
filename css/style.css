@@ -32,9 +32,9 @@
   /*  background-color: purple; */
     float: left;
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
     font-size : 35px;
     color : #3F211A;
+    font-family: 'Open Sans', sans-serif;
     }
 
 #header .logo a {
@@ -234,22 +234,30 @@
     justify-content: center;
     }
    
-    #desconto button {
-        border-radius: 30px;
-        font-size: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        float: left;
-        width: 50%;
-        float: right;
-        font-family: 'Open Sans', sans-serif;
-        }
+     #desconto .areabotao a {
+            border-radius: 30px;
+            font-size: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 50%;
+            float: right;
+            background : #FFFFFF;
+            color : #3F211A;
+            font-family: 'Open Sans', sans-serif;
+            border:solid 1px #ccc; 
+            }
+
+        #desconto .areabotao a:hover {
+            border:solid 1px #3F211A;
+            background-color: #3F211A; 
+            color: white; 
+            }
 
 #destaques {
         width: 100%;
         height: 1710px;
         float: left;
-        background-color: lightgoldenrodyellow;
+      /*  background-color: lightgoldenrodyellow; */
         }
 
 #destaques .titulo {
@@ -265,7 +273,8 @@
 
      #destaques .titulo p {
         font-size: 36px;
-        color: brown;
+        color : #3F211A;
+        font-family: 'Open Sans', sans-serif;
         text-align: center;
         }
 
@@ -290,6 +299,8 @@
         list-style: none;
         margin-right: 40px;
         margin-left: 10px;
+        color : #3F211A;
+        font-family: 'Open Sans', sans-serif;
         } 
 
 #destaques .produtos {
@@ -314,7 +325,7 @@
     margin: 10px;
     /* margin-bottom: 10px; */
     text-align: center;
-    background: red;
+  /*  background: red; */
     }
 
 #destaques li .imagem {
@@ -327,27 +338,28 @@
 #destaques li .imagemdescricao {
     height: 138px;
     width: 100%;
-    background: pink;
+ /*   background: pink; */
     }
 
     #destaques li .produtodescricao {
-        background: white;
+   /*     background: white;  */
         margin-left: 5px;
         margin-top: 25px;
         float: left;
         text-align: left;
         }
 
-        #destaque li .produtodescricao p {
+        #destaques li .produtodescricao p {
             font-size: 16px;
-            margin-left: 25px;
+            font-family: 'Open Sans', sans-serif;
+            color : #3F211A;
             }
 
-        #destaque li .produtodescricao .far {
+        #destaques li .produtodescricao .far {
             font-size: 16px;
             margin-bottom: 25px;
-            margin-right: 10px;
-            padding: right 20;
+            margin-right: 5px;
+            color : #3F211A;
             }
            
     #destaques li .coracao {
@@ -362,6 +374,7 @@
         #destaques .coracao .far {
             float: right;
             font-size: 30px;
+            color : #3F211A;
             }
 
 #youtube {
@@ -417,7 +430,9 @@
             }
 
         #youtube .areabotao a:hover {
-            border:solid 1px #3F211A; 
+            border:solid 1px #3F211A;
+            background-color: #3F211A; 
+            color: white;
             }
 
 #footer {
@@ -645,3 +660,90 @@
     #menu input {
         display: none;
         }
+
+.wishlist {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 14px;
+   /* background-color: hotpink; */
+    float: left;
+    } 
+
+.wishlist h1 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 158px;
+    } 
+
+
+.produtoswishlist {
+   /* background-color: teal; */
+    height: 1490px;
+    float: left;
+    } 
+
+.produtoswishlist ul{
+        margin-left: 158px;
+        padding: 0;
+        margin-right: 158px;
+        margin-bottom: 40px;
+        height: 1450px;
+    }
+
+.produtoswishlist li {
+    width: calc(33.33% - 20px);
+    height: 463px;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+  /*  background: red; */
+    }
+
+.produtoswishlist li .imagem {
+    height: 325px;
+    width: 100%;
+    text-align: center;
+    background: greenyellow;
+    }
+   
+.produtoswishlist li .imagemdescricao {
+    height: 138px;
+    width: 100%;
+  /*  background: pink; */
+    }
+
+  .produtoswishlist li .produtodescricao {
+        background: white;
+        margin-left: 5px;
+        margin-top: 25px;
+        float: left;
+        text-align: left;
+        }
+
+.produtoswishlist li .produtodescricao p {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            }
+
+.produtoswishlist li .produtodescricao .far {
+        font-size: 16px;
+        margin-bottom: 25px;
+        margin-right: 5px;
+        }
+           
+.produtoswishlist li .coracao {
+        width: calc(50% - 5px);
+       /* background: rgb(38, 32, 99); */
+        margin-right: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        float: right;
+        }
+.produtoswishlist .coracao .far {
+            float: right;
+            font-size: 30px;
+            }
