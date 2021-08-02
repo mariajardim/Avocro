@@ -1,7 +1,7 @@
 <div class="parte1">
     <h3>NOME DA EMPRESA </h3>
     <ul>
-        <li><a href="quemsomos.php?">Quem Somos</a></li>
+        <li><a href="quemsomos.php?">Quem Somos?</a></li>
     </ul>
 </div>
 
