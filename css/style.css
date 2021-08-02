@@ -95,6 +95,7 @@
     margin-bottom: 15px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
     }
  
 #slider .novidades1 h2 {
@@ -102,6 +103,7 @@
     margin-bottom: 50px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
     }
 
 #slider .novidades1 ul{
@@ -116,6 +118,7 @@
     margin-right: 35px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
     }
 
 #categorias .cx1 {
@@ -130,11 +133,11 @@
     height: 758px;
     float: left;
     margin-left: 0%;
-    background-color:black;
+    background-color:#F2EFEF;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
-    }
+    } 
 
     #categorias .cx1 p {
         float: left;
@@ -145,7 +148,9 @@
         color: white;
         text-align: right;
         font-family: 'Open Sans', sans-serif;
+        text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
         }
+
     
 #categorias .cx2 {
         width: 50%;
@@ -158,7 +163,7 @@
     width: calc(100% - 5px);
     height: 758px;
     float: left;
-    background-color:pink;
+    background-color:#F2EFEF;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -173,15 +178,23 @@
         margin-bottom: 150px;
         color: white;
         font-family: 'Open Sans', sans-serif;
+        text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
         }
 
 #categorias .cx3 {
     width: 100%;
     height: 768px;
     float: left;
-    background-color: peachpuff;
-    margin-bottom: 5px;
+    background-color: white;
     }
+
+    #categorias .subcx3 {
+        width: 100%;
+        height: 758px;
+        float: left;
+        background-color: #F2EFEF;
+        margin-bottom: 5px;
+        }
 
     #categorias .cx3 p {
         float: left;
@@ -193,8 +206,22 @@
         position: absolute;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
+        text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
         }
 
+
+ #categorias .opacidade {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(97, 100, 105, 0);
+        opacity: 1;
+        cursor: pointer;
+        }   
+
+        #categorias .opacidade:hover {
+            opacity: 1;
+            background-color: rgba(97, 100, 105, 0.2);
+            }  
 
 #desconto {
     width: 100%;
