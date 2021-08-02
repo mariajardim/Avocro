@@ -369,7 +369,7 @@
         text-align: right;
         background: grey;
         opacity: 0;
-        float: :right;
+        float: right;
         cursor: pointer;
         }   
 
@@ -768,7 +768,7 @@
             text-align: right;
             background: grey;
             opacity: 0;
-            float: :right;
+            float: right;
             cursor: pointer;
             }   
 
@@ -783,7 +783,7 @@
     margin-right: 25px;
     margin-top: 25px;
     opacity: 1;
-    float: :right;
+    float: right;
     cursor: pointer;
     }   
 
@@ -813,3 +813,42 @@
         margin-bottom: 25px;
         margin-right: 5px;
         }
+
+
+.quemsomos {
+    width: 50%;
+    height: 468px;
+    font-size: 14px;
+    /* background-color: hotpink; */
+    float: left;
+    } 
+
+.quemsomos h1 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 158px;
+    } 
+
+.quemsomos p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin-top: 25px;
+    margin-left: 158px;
+    margin-right: 50px;
+    } 
+
+.loja {
+    width: calc(50% - 158px);
+    height: 468px;
+    /* background-color: lightgrey; */
+    float: left;
+    background-image: url('../images/marcus-loke-xXJ6utyoSw0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 50px;
+    } 

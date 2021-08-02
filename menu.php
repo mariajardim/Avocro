@@ -9,6 +9,6 @@
                     <li><a href="#">Amigurumis</a></li>
                     <li><a href="#">Aprender Croché</a></li>
                     <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Fala Connosco!</a></li>
+                    <li><a href="falaconnosco.php?">Fala Connosco!</a></li>
             </ul>
         </div>

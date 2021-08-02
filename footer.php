@@ -24,7 +24,7 @@
     <h3>DÚVIDAS </h3>
     <ul>
         <li>FAQS </li>
-        <li>Fala connosco!</li>
+        <li><a href="falaconnosco.php?">Fala Connosco!</a></li>
     </ul>
 </div>
 
