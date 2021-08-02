@@ -28,7 +28,12 @@
 <div class="produtoswishlist"> 
     <ul>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
+            
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -36,15 +41,17 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
 
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
+            
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -52,14 +59,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -67,14 +75,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -82,14 +91,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -97,14 +107,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -112,14 +123,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -127,14 +139,16 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
+            
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -142,14 +156,15 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -157,9 +172,6 @@
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
-                </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </li>

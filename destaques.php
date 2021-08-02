@@ -14,7 +14,9 @@
 <div class="produtos"> 
     <ul>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                    <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -30,7 +32,9 @@
         </li>
 
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem"> 
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -45,7 +49,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -60,7 +66,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -75,7 +83,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -90,7 +100,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -105,7 +117,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -120,7 +134,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
@@ -135,7 +151,9 @@
             </div>
         </li>
         <li>
-            <div class="imagem">Imagem</div>
+            <div class="imagem">
+                <div class="opacidade"></div>
+            </div>
             <div class="imagemdescricao">
                 <div class="produtodescricao"> 
                     <p>Produto <br>
