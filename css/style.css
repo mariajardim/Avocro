@@ -816,7 +816,7 @@
 
 .falaconnosco {
     width: 50%;
-    height: 468px;
+    height: 568px;
     font-size: 14px;
     float: left;
     } 
@@ -827,6 +827,7 @@
     text-transform: uppercase;
     margin-top: 50px;
     margin-left: 168px;
+    color: rgb(63, 33, 26);
     } 
 
 form {
@@ -846,43 +847,51 @@ form {
     margin-bottom: 50px;
     } 
 
+.input-field:last-child {
+        margin-bottom: 0px;
+        } 
+
     .input-field input {
         outline: none;
         border: 0;
         width: 100%;
-        color: rgba(0, 0, 0, 0.7)
+        color: rgb(63, 33, 26, 1);
+        margin-bottom:5px;
         } 
-        .input-field input ::placeholder {
-            color: rgba(0, 0, 0, 0.5)
+        input::placeholder {
+            color: rgb(63, 33, 26, 0.5);
             } 
 
 form select {
     outline: none;
     border: 0;
     width: 100%;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(63, 33, 26, 1);
+    margin-bottom: 5px;
     } 
 
-      
-form  select:hover,
+    select:invalid {
+        color: rgb(63, 33, 26, 0.5);
+      }
+
+/*form  select:hover,
       select:focus,
       select:active,
       select:checked {
-        color: rgba(0, 0, 0, 0.7);
-      }
-
+        color: rgb(63, 33, 26, 1);
+      } */
 
 .input-field textarea {
     outline: none;
-   /* border: 0; */
-   border-color: rgba(0, 0, 0, 0.2);
+    /* border: 0; */
+    border-color: rgb(63, 33, 26, 0.2);
     width: 100%;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgb(63, 33, 26, 1);
     height: 100px;
     } 
         
-    .input-field textarea ::placeholder {
-        color: rgba(0, 0, 0, 0.5)
+    textarea::placeholder {
+        color: rgb(63, 33, 26, 0.5);
         } 
 
 .underline {
@@ -892,13 +901,71 @@ form  select:hover,
     width:100%;
     bottom:-5px;
     left:0;
-    background: rgba(0, 0, 0, 0.2)
+    background: rgb(63, 33, 26, 0.2)
     } 
+
+form button {
+            border-radius: 30px;
+            font-size: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 50%;
+            background : #FFFFFF;
+            color : #3F211A;
+            font-family: 'Open Sans', sans-serif;
+            border:solid 1px #ccc; 
+            }
+
+            form button:hover {
+            border:solid 2px white;
+            background-color: #3F211A; 
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            }
+
+            form button:active {
+            box-shadow: 6px 6px 6px #888;
+            }
+
 
 .dadosdaempresa {
     width: calc(50% - 168px);
-    height: 468px;
-    background-color: red;
+    height: 568px;
+   /* background-color: red; */
     float: left;
     margin-bottom: 50px;
     } 
+
+#map {
+    width: 100%;
+    height: 440px;
+    /*   background-color: blue; */
+    float: left;
+    } 
+
+.email {
+    width: 100%;
+    float: left;
+    } 
+
+            .email li{
+                float: left;
+                color: #3F211A;
+                list-style: none;
+                font-size: 14px;
+                margin-top: 25px;
+            }
+                } 
+
+        .telemovel {
+            width: 100%;
+            float: left;
+            } 
+    
+            .telemovel li{
+                float: left;
+                color: #3F211A;
+                list-style: none;
+                font-size: 14px;
+                margin-top: 15px;
+                } 
