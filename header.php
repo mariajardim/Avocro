@@ -13,7 +13,7 @@
             <a href="compras.php?"><i class="fas fa-shopping-bag"></i></a>
         </li>
         <li> 
-            <a href="perfil.php?"><i class="fas fa-user-alt"></i></a>
+            <a href="login.php?"><i class="fas fa-user-alt"></i></a>
         </li>
         <li> 
             <div id="menu">
