@@ -618,7 +618,7 @@
     float: left;
     text-transform: uppercase;
     margin-top: 50px;
-    margin-left: 158px;
+    margin-left: 168px;
     } 
 
 .quemsomos p {
@@ -688,7 +688,7 @@
         list-style: none;
         text-align: left;
         margin-top: 150px;
-        margin-left: 158px;
+        margin-left: 168px;
         } 
     
     #menu .wrapper ul li {
@@ -814,41 +814,91 @@
         margin-right: 5px;
         }
 
-
-.quemsomos {
+.falaconnosco {
     width: 50%;
     height: 468px;
     font-size: 14px;
-    /* background-color: hotpink; */
     float: left;
     } 
 
-.quemsomos h1 {
+.falaconnosco h1 {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    float: left;
     text-transform: uppercase;
     margin-top: 50px;
-    margin-left: 158px;
+    margin-left: 168px;
     } 
 
-.quemsomos p {
+form {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     float: left;
     margin-top: 25px;
-    margin-left: 158px;
-    margin-right: 50px;
+    margin-left: 168px;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: calc(100% - 268px);
     } 
 
-.loja {
-    width: calc(50% - 158px);
+.input-field  {
+    position: relative;
+    margin-bottom: 50px;
+    } 
+
+    .input-field input {
+        outline: none;
+        border: 0;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.7)
+        } 
+        .input-field input ::placeholder {
+            color: rgba(0, 0, 0, 0.5)
+            } 
+
+form select {
+    outline: none;
+    border: 0;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    } 
+
+      
+form  select:hover,
+      select:focus,
+      select:active,
+      select:checked {
+        color: rgba(0, 0, 0, 0.7);
+      }
+
+
+.input-field textarea {
+    outline: none;
+   /* border: 0; */
+   border-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    } 
+        
+    .input-field textarea ::placeholder {
+        color: rgba(0, 0, 0, 0.5)
+        } 
+
+.underline {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width:100%;
+    bottom:-5px;
+    left:0;
+    background: rgba(0, 0, 0, 0.2)
+    } 
+
+.dadosdaempresa {
+    width: calc(50% - 168px);
     height: 468px;
-    /* background-color: lightgrey; */
+    background-color: red;
     float: left;
-    background-image: url('../images/marcus-loke-xXJ6utyoSw0-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
     margin-bottom: 50px;
     } 

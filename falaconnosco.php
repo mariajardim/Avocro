@@ -22,33 +22,32 @@
     </div>
 
     <div class="falaconnosco">
-       <div> <h1><b>Fala Connosco!</b></h1> </div>
-       <form action="" method="POST">
-               <div>
-                   <label>Nome Completo</label>
-                   <input type="text" name="nome" id="nome" required>
-               </div>
+            <h1><b>Fala Connosco!</b></h1>
+            <form action="" method="POST">
+                <div class="input-field">
+                    <input type="text" name="nome" id="nome" placeholder="Insere o Nome Completo" required>
+                    <div class="underline"> </div>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="email" id="email" placeholder="Insere o Email" required>
+                    <div class="underline"> </div>
+                </div>
+                <div class="input-field">
+                    <select id="problema" required> 
+                            <option selected disabled value="">Em que podemos ajudar?</option>
+                            <option>Reportar um problema</option>
+                            <option>Apresentar reclamação</option>
+                            <option>Apresentar sugestão de melhoria</option>
+                            <option>Outra situação</option>
+                    </select> 
+                    <div class="underline"> </div>
+                </div>
 
                <div>
-                   <label>Email</label>
-                   <input type="email" name="email" id="email" required>
-               </div>
-            
-               <div>
-                   <label>Em que podemos ajudar?</label>
-                   <select id="problema" required> 
-                        <option selected disabled value="">Em que podemos ajudar?</option>
-                        <option>Reportar um problema</option>
-                        <option>Apresentar reclamação</option>
-                        <option>Apresentar sugestão de melhoria</option>
-                        <option>Outra situação</option>
-                   </select> 
-               </div>
-
-               <div>
-                   <label>Detalhe da situação</label>
-                   <textarea row="6" style="width: 26em" id="detalhe" name="detalhe" required> </textarea>
-               </div>
+                    <div class="input-field">
+                        <textarea row="6" id="detalhe" name="detalhe" placeholder="Escrever mensagem..." required></textarea>
+                    </div>
+                </div>
 
                <button type="submit" class="btn btn-primary">
                     Submeter
