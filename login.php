@@ -22,6 +22,8 @@
     </div>
 
     <div class="login">
+
+        <div class="quadrado">
             <h1><b>Iniciar Sessão / Registo</b></h1>
             <form action="" method="POST">
                 <div class="input-field">
@@ -29,11 +31,10 @@
                     <div class="underline"> </div>
                 </div>
                 <div class="input-field">
-                    <input type="password" name="password" id="password" placeholder="Palavra-chave *" required>
-                    <div class="olho"><i class="fas fa-eye-slash"></i></div>
+                    <input type="password" name="senha" id="senha" placeholder="Palavra-chave *" required>
+                    <button type="button" title="Ver ou ocultar senha" onclick="viewSenha()"><i class="fas fa-eye"></i></button> 
                     <div class="underline"></div>
                 </div>
-
                <button type="submit" class="btn btn-primary">
                     Iniciar Sessão
                </button>
@@ -41,14 +42,24 @@
                <button type="submit" class="btn btn-primary">
                     Novo Registo
                </button>
-
-               
-       </form>
+            </form>
+        </div>
     </div>
 
     <div id="footer">
           <?php include('footer.php'); ?>
     </div>
+
+<script>
+    function viewSenha(){
+            var tipo = document.getElementById("senha")
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            }else{
+                tipo.type = "password";
+            }
+            }
+</script>
 
 </body>
 </html>

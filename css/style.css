@@ -617,6 +617,7 @@
     float: left;
     text-transform: uppercase;
     margin-top: 50px;
+    margin-bottom: 0px;
     margin-left: 168px;
     } 
 
@@ -624,8 +625,8 @@
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     float: left;
-    margin-top: 25px;
-    margin-left: 158px;
+    margin-top: 50px;
+    margin-left: 168px;
     margin-right: 50px;
     } 
 
@@ -832,11 +833,11 @@
     color: rgb(63, 33, 26);
     } 
 
-form {
+.falaconnosco form {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     float: left;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 168px;
     border: 0;
     padding: 0;
@@ -845,26 +846,26 @@ form {
     } 
 
 
-.input-field  {
+.falaconnosco .input-field  {
     margin-bottom: 50px;
     } 
 
-.input-field:last-child {
+.falaconnosco .input-field:last-child {
         margin-bottom: 0px;
         } 
 
-    .input-field input {
+        .falaconnosco .input-field input {
         outline: none;
         border: 0;
         width: 100%;
         color: rgb(63, 33, 26, 1);
         margin-bottom:5px;
         } 
-        input::placeholder {
+        .falaconnosco input::placeholder {
             color: rgb(63, 33, 26, 0.5);
             } 
 
-form select {
+    .falaconnosco form select {
     outline: none;
     border: 0;
     width: 100%;
@@ -872,7 +873,7 @@ form select {
     margin-bottom: 5px;
     } 
 
-    select:invalid {
+    .falaconnosco select:invalid {
         color: rgb(63, 33, 26, 0.5);
       }
 
@@ -883,7 +884,7 @@ form select {
         color: rgb(63, 33, 26, 1);
       } */
 
-.input-field textarea {
+.falaconnosco .input-field textarea {
     outline: none;
     /* border: 0; */
     border-color: rgb(63, 33, 26, 0.2);
@@ -892,20 +893,21 @@ form select {
     height: 100px;
     } 
         
-    textarea::placeholder {
+    .falaconnosco textarea::placeholder {
         color: rgb(63, 33, 26, 0.5);
         } 
 
-.underline {
+        .falaconnosco .underline {
     content: '';
     height: 1px;
     width:100%;
     bottom:-5px;
     left:0;
-    background: rgb(63, 33, 26, 0.2)
+    background: rgb(63, 33, 26, 0.2);
+    float: left;
     } 
 
-form button {
+   /* .falaconnosco form button {
             border-radius: 30px;
             font-size: 30px;
             padding-left: 30px;
@@ -926,7 +928,7 @@ form button {
 
             form button:active {
             box-shadow: 6px 6px 6px #888;
-            }
+            }  */
 
 
 .dadosdaempresa {
@@ -970,3 +972,108 @@ form button {
                 font-size: 14px;
                 margin-top: 15px;
                 } 
+
+
+.login {
+    width: 100%;
+    height: 568px;
+    font-size: 14px;
+    float: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    } 
+
+.quadrado{
+    width: 50%;
+    height: 300px;
+    float: left;
+    text-align: center;
+   /* background-color: red; */
+    } 
+
+        .login h1 {
+            width: 100%;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            margin-top: 50px;
+            color: rgb(63, 33, 26);
+            } 
+
+        .login #senha {
+            width: 80%;
+            float: left;
+            padding-right: 30px; 
+            } 
+
+            #senha + button,
+            #senha + button:hover,
+            #senha + button:focus {
+                    all: unset;
+                    margin-left: 120px;
+                    cursor: pointer;
+                   /* content:"\f070"; - ver como se aplica isto - quando carregar no icone olho muda de icone*/
+                    }
+
+        .login .input-field button {
+            width: 20%;
+            float: left;
+            text-align: right;
+            color: rgb(63, 33, 26);
+            } 
+    
+
+.login form {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    } 
+
+
+.login .input-field  {
+    margin-bottom: 50px;
+    } 
+
+.login .input-field:last-child {
+        margin-bottom: 0px;
+        } 
+
+.login .input-field input {
+        outline: none;
+        border: 0;
+        width: 100%;
+        color: rgb(63, 33, 26, 1);
+        margin-bottom:5px;
+        } 
+
+        .login input::placeholder {
+            color: rgb(63, 33, 26, 0.5);
+            } 
+
+    .login form select {
+    outline: none;
+    border: 0;
+    width: 100%;
+    color: rgb(63, 33, 26, 1);
+    margin-bottom: 5px;
+    } 
+
+    .login select:invalid {
+        color: rgb(63, 33, 26, 0.5);
+      }
+
+
+.login .underline {
+    content: '';
+    height: 1px;
+    width:100%;
+    bottom:-5px;
+    left:0;
+    background: rgb(63, 33, 26, 0.2);
+    float: left;
+    } 
+
