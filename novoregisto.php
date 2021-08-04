@@ -27,11 +27,11 @@
             <h1><b>Novo Registo</b></h1>
             <form action="" method="POST">
                 <div class="input-field">
-                    <input type="name" name="nome" id="nome" placeholder="Nome *" required>
+                    <input type="text" name="nome" id="nome" placeholder="Nome *" required>
                     <div class="underline"> </div>
                 </div>
                 <div class="input-field">
-                    <input type="name" name="apelido" id="apelido" placeholder="Apelido *" required>
+                    <input type="text" name="apelido" id="apelido" placeholder="Apelido *" required>
                     <div class="underline"> </div>
                 </div>
                 <div class="input-field">
