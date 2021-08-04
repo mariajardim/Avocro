@@ -942,7 +942,7 @@
 #map {
     width: 100%;
     height: 440px;
-    /*   background-color: blue; */
+   /* background-color: blue; */
     float: left;
     } 
 
@@ -957,7 +957,7 @@
                 color: #3F211A;
                 list-style: none;
                 font-size: 14px;
-                margin-top: 25px;
+                margin-top: 35px;
             }
 
         .telemovel {

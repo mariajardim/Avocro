@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avó Cró</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -45,7 +44,7 @@
 
                <div>
                     <div class="input-field">
-                        <textarea row="6" style="margin-bottom: 25px;" id="detalhe" name="detalhe" placeholder="Detalhe da situação *" required></textarea>
+                        <textarea row="6" style="margin-bottom: 25px; margin-top: 0px; height: 90px;" id="detalhe" name="detalhe" placeholder="Detalhe da situação *" required></textarea>
                     </div>
                 </div>
 
@@ -57,7 +56,11 @@
 
 
     <div class="dadosdaempresa">
-        <div id="map"></div>
+        <div id="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.84795914986!2d-9.230244008336204!3d38.74373959659252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!5e0!3m2!1spt-PT!2sch!4v1628078358721!5m2!1spt-PT!2sch"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <div class="email">
             <ul>
                 <li><i class="fas fa-envelope-open-text" style="margin-right: 15px;"></i></li>    
@@ -73,19 +76,6 @@
     <div id="footer">
           <?php include('footer.php'); ?>
     </div>
-
-    <script>
-            function initMap()   {
-                var location = {lat:38.758610, lng:-9.166220} 
-                var map = new google.maps.Map(document.getElementById('map'), 
-                    {
-                    zoom: 4,
-                    center: location
-                    });
-                }
-        </script>
-
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzJmQB1RwHY8h5B4HvXNrqbgEt1eXl7rU&callback=initMap"></script>
 
 </body>
 </html>
