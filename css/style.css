@@ -976,7 +976,7 @@
 
 .login {
     width: 100%;
-    height: 568px;
+    height: 468px;
     font-size: 14px;
     float: left;
     display: flex;
@@ -984,7 +984,7 @@
     justify-content: center;
     } 
 
-.quadrado{
+.login .quadrado{
     width: 50%;
     height: 300px;
     float: left;
@@ -1063,3 +1063,141 @@
     background: rgb(63, 33, 26, 0.2);
     float: left;
     } 
+
+.login a {
+    color: blue;
+    text-decoration: none;
+    WIDTH: 49%; 
+    background: white;
+    } 
+
+    .login a:hover {
+        color: blue;
+        text-decoration: none;
+        WIDTH: 49%; 
+        background: rgba(196, 196, 238, 0.603);
+        } 
+
+
+    .novoregisto {
+        width: 100%;
+        height: 718px;
+        font-size: 14px;
+        float: left;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        } 
+    
+    .novoregisto .quadrado{
+        width: 50%;
+        height: 300px;
+        float: left;
+        text-align: center;
+       /* background-color: red; */
+        } 
+    
+            .novoregisto .quadrado h1 {
+                width: 100%;
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                margin-top: 50px;
+                color: rgb(63, 33, 26);
+                } 
+    
+          .novoregisto #senha {
+                width: 80%;
+                float: left;
+                padding-right: 30px; 
+                } 
+    
+                #senha + button,
+                #senha + button:hover,
+                #senha + button:focus {
+                        all: unset;
+                        margin-left: 120px;
+                        cursor: pointer;
+                        color: rgb(63, 33, 26);
+                        }
+
+         .novoregisto #senha1 {
+                width: 80%;
+                float: left;
+                padding-right: 30px; 
+                } 
+    
+                #senha1 + button,
+                #senha1 + button:hover,
+                #senha1 + button:focus {
+                        all: unset;
+                        margin-left: 120px;
+                        cursor: pointer;
+                        color: rgb(63, 33, 26);
+                        }
+    
+            .novoregisto .input-field button {
+                width: 20%;
+                float: left;
+                text-align: right;
+                }   
+        
+    
+    .novoregisto form {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 50px;
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+        } 
+    
+    
+    .novoregisto .input-field  {
+        margin-bottom: 50px;
+        } 
+    
+    .novoregisto .input-field:last-child {
+            margin-bottom: 0px;
+            } 
+    
+    .novoregisto .input-field input {
+            outline: none;
+            border: 0;
+            width: 100%;
+            color: rgb(63, 33, 26, 1);
+            margin-bottom:5px;
+            } 
+    
+            .login input::placeholder {
+                color: rgb(63, 33, 26, 0.5);
+                } 
+    
+    .novoregisto .underline {
+        content: '';
+        height: 1px;
+        width:100%;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+        } 
+    
+.novoregisto button {
+        width: 100%;
+        } 
+
+.novoregisto .conta {
+    width: 100%;
+    margin-top: 25px;
+    } 
+
+    .novoregisto p {
+        float: left;
+        width: 50%;
+        text-align: end;
+        } 
+    .novoregisto a {
+        float: left;
+        margin-left: 10px;
+        } 

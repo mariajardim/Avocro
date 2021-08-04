@@ -21,11 +21,19 @@
     <div class="branco">
     </div>
 
-    <div class="login">
+    <div class="novoregisto">
 
         <div class="quadrado">
-            <h1><b>Iniciar Sessão / Registo</b></h1>
+            <h1><b>Novo Registo</b></h1>
             <form action="" method="POST">
+                <div class="input-field">
+                    <input type="name" name="nome" id="nome" placeholder="Nome *" required>
+                    <div class="underline"> </div>
+                </div>
+                <div class="input-field">
+                    <input type="name" name="apelido" id="apelido" placeholder="Apelido *" required>
+                    <div class="underline"> </div>
+                </div>
                 <div class="input-field">
                     <input type="email" name="email" id="email" placeholder="Email *" required>
                     <div class="underline"> </div>
@@ -35,10 +43,18 @@
                     <button type="button" title="Ver ou ocultar senha" onclick="viewSenha()"><i class="fas fa-eye"></i></button> 
                     <div class="underline"></div>
                 </div>
-               <button type="submit" class="btn btn-primary" style="WIDTH: 50%;">
-                    Iniciar Sessão
+                <div class="input-field">
+                    <input type="password" name="senha1" id="senha1" placeholder="Confirmar Palavra-chave *" required>
+                    <button type="button" title="Ver ou ocultar senha" onclick="viewSenha1()"><i class="fas fa-eye"></i></button> 
+                    <div class="underline"></div>
+                </div>
+               <button type="submit" class="btn btn-primary">
+                    Confirmar
                </button>
-                    <a href="novoregisto.php?" type="button" class="btn btn-primary">Novo Registo</a>
+                <div class="conta">
+                    <p>Já estás registado?</p>
+                    <a href="login.php?">Iniciar Sessão</a>
+                </div>
             </form>
         </div>
     </div>
@@ -50,6 +66,15 @@
 <script>
     function viewSenha(){
             var tipo = document.getElementById("senha")
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else{
+                tipo.type = "password";
+            }
+        }
+    
+        function viewSenha1(){
+            var tipo = document.getElementById("senha1")
             if (tipo.type == "password") {
                 tipo.type = "text";
             } else{
