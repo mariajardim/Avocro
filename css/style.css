@@ -1183,6 +1183,25 @@
         float: left;
         } 
     
+
+.novoregisto .ativarpolitica {
+    height: 25px;
+    margin-bottom: 50px;
+    } 
+
+.novoregisto .ativarpolitica input {
+        float: left;
+        margin-top: 5px;
+        } 
+
+.novoregisto .ativarpolitica p {
+        float: left;
+        margin-left: 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(63, 33, 26);
+        } 
+
+
 .novoregisto button {
         width: 100%;
         } 
@@ -1192,12 +1211,16 @@
     margin-top: 25px;
     } 
 
-    .novoregisto p {
+    .novoregisto .conta p {
         float: left;
         width: 50%;
         text-align: end;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(63, 33, 26);
         } 
     .novoregisto a {
         float: left;
         margin-left: 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(141, 113, 106);
         } 

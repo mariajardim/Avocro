@@ -48,6 +48,12 @@
                     <button type="button" title="Ver ou ocultar senha" onclick="viewSenha1()"><i class="fas fa-eye"></i></button> 
                     <div class="underline"></div>
                 </div>
+                
+                <div class="ativarpolitica">
+                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                    <p>Aceito a Política de privacidade e os termos e Condições do site.</p> 
+                </div>
+
                <button type="submit" class="btn btn-primary">
                     Confirmar
                </button>
