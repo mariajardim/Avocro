@@ -55,10 +55,11 @@
             var tipo = document.getElementById("senha")
             if (tipo.type == "password") {
                 tipo.type = "text";
-            }else{
+            } else{
                 tipo.type = "password";
             }
-            }
+        }
+
 </script>
 
 </body>
