@@ -1277,6 +1277,7 @@
             margin-bottom:5px;
             float: left;
             width: 95%;
+            margin-left: 10px;
             } 
     
             .pesquisa input::placeholder {
@@ -1284,10 +1285,10 @@
                 } 
     
             .pesquisa .input-field button {
-                float: right;
-                text-align: right;
+                float: left;
                 border: none;
                 background: none;
+                color: rgb(63, 33, 26, 1);
             }  
 
     .pesquisa .underline {
@@ -1299,3 +1300,170 @@
         background: rgb(63, 33, 26, 0.2);
         float: left;
         } 
+
+
+.categoriaartigos {
+    width: calc(50% - 168px);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 14px;
+   /* background-color: hotpink; */
+    float: left;
+    height: 50px;
+    margin-left: 168px;
+    } 
+
+.categoriaartigos select {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-transform: uppercase;
+    border: none;
+    width: 50%;
+    color: rgb(63, 33, 26, 1);
+    margin-bottom: 5px;
+    } 
+
+    .categoriaartigos .underline {
+        content: '';
+        height: 1px;
+        width: 50%;
+        margin-right: 5px;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+        } 
+
+    .filtrosordenacao {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 14px;
+       /* background-color: hotpink; */
+        float: left;
+        } 
+    
+    .filtrosordenacao p {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        float: left;
+        text-transform: uppercase;
+        color: rgb(63, 33, 26, 1);
+        margin-left: 10px;
+        } 
+    
+.filtrosordenacao .fil{
+            float: left;
+            margin-left: 325px;
+            } 
+
+.filtrosordenacao .ord{
+            float: right;
+            margin-right: 168px;
+            }     
+
+            .filtrosordenacao i{
+                float: left;
+                color: rgb(63, 33, 26, 1);
+                font-size: 14px;
+                margin-top: 5px;
+                }     
+    
+.produtos_filtros {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    float: left;
+    }   
+
+
+
+.artigos {
+ /*  background-color: teal; */
+    height: 1490px;
+    float: left;
+    width: 100%;
+    } 
+
+.artigos ul{
+        margin-left: 158px;
+        padding: 0;
+        margin-right: 158px;
+        margin-bottom: 40px;
+        height: 1450px;
+    }
+
+ .artigos li {
+    width: calc(33.33% - 20px);
+    height: 463px;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+  /*  background: red; */
+    }
+
+    .artigos li .imagem {
+    height: 325px;
+    width: 100%;
+    text-align: center;
+    background: #F4F2F2;
+    }
+
+    .artigos li .imagem .opacidade {
+        height: 100%;
+        width: 100%;
+        text-align: right;
+        background: grey;
+        opacity: 0;
+        float: right;
+        cursor: pointer;
+        }   
+
+        .artigos li .imagem .opacidade:hover {
+            opacity: 1;
+            background-color: rgba(97, 100, 105, 0.2);
+            }   
+   
+.artigos li .imagemdescricao {
+    height: 138px;
+    width: 100%;
+ /*   background: pink; */
+    }
+
+.artigos li .produtodescricao {
+   /*     background: white;  */
+        margin-left: 5px;
+        margin-top: 25px;
+        float: left;
+        text-align: left;
+        }
+
+.artigos li .produtodescricao p {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color : #3F211A;
+            }
+
+.artigos li .produtodescricao .far {
+            font-size: 16px;
+            margin-bottom: 25px;
+            margin-right: 5px;
+            color : #3F211A;
+            }
+           
+.artigos li .coracao {
+        width: calc(50% - 5px);
+       /* background: rgb(38, 32, 99); */
+        margin-right: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        float: right;
+        }
+
+.artigos .coracao .far {
+            float: right;
+            font-size: 30px;
+            color : #3F211A;
+            }

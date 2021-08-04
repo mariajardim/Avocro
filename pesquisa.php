@@ -27,8 +27,8 @@
             <h1><b>Pesquisa</b></h1>
             <form action="" method="POST">
                 <div class="input-field">
-                    <input type="text" name="procura" id="procura" placeholder="O que procuras?" required>
                     <button type="button" title="pesquisar" id="enterpesquisar" onclick="alert('Pesquisa Realizada!');"><i class="fas fa-search"></i></button> 
+                    <input type="text" name="procura" id="procura" placeholder="O que procuras?" required>
                     <div class="underline"></div>
                 </div>
             </form>
