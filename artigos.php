@@ -59,119 +59,117 @@
     <div id="dv-modal" class="modal1">
             <div class="modal-content1">
                 <div class="modal-head">
+                    <button class="fecharmodal" onclick="closeModal('dv-modal')" style="float:right; background:none; border:none; font-size:20px;"><i class="fas fa-times" style="float: right;"></i></button>
                     <h1>Filtra a tua pesquisa</h1>
                 </div>
                 <div class="modal-body">
                     <div class="cor">
-                        <p>COR</P>
-                        <div>
+                        <p style="margin-bottom: 25px;">COR</P>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Azul</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Amarelo</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Preto</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Vermelho</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Branco</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Castanho</label>
                         </div>
                     </div>
                     <div class="tamanho">
-                        <p>TAMANHO</P>
-                        <div>
+                        <p style="margin-bottom: 25px;">TAMANHO</P>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">XS</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">S</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">M</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">L</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">XL</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
                             <label for="scales">Tamanho Único</label>
                         </div>
                     </div>
                     <div class="preco1">
-                        <p>PRECO</P>
-                        <div>
+                        <p style="margin-bottom: 25px;">PREÇO</P>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">XS</label>
+                            <label for="scales">Promoções</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">S</label>
+                            <label for="scales">0€ - 10€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">M</label>
+                            <label for="scales">10€ - 20€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">L</label>
+                            <label for="scales">20€ - 30€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">XL</label>
+                            <label for="scales">30€ - 40€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">Tamanho Único</label>
+                            <label for="scales">40€ - 50€</label>
                         </div>
                     </div>
                     <div class="preco2">
-                        <p></P>
-                        <div>
+                        <p style="color:white;" style="margin-bottom: 25px;">.</p>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">XS</label>
+                            <label for="scales">50€ - 60€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">S</label>
+                            <label for="scales">60€ - 70€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">M</label>
+                            <label for="scales">70€ - 80€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">L</label>
+                            <label for="scales">80€ - 90€</label>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 15px;">
                             <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">XL</label>
+                            <label for="scales">100€ - 110€</label>
                         </div>
-                        <div>
-                            <input type="checkbox" id="scales" name="scales" >
-                            <label for="scales">Tamanho Único</label>
-                        </div>
+                       
                     </div>
                 </div>
-                <div class="modal-footer" style="border:none;">
+                <div class="modal-footer" style="border:none; padding: 0px;">
                     <button class="fecharmodal" onclick="closeModal('dv-modal')">Ver Resultados</button>
                 </div>
             </div>

@@ -1502,19 +1502,54 @@
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
             text-transform: uppercase;
+            margin-bottom: 40px;
             }
 .modal1 .modal-body {
     display: flex;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    padding: 0px;
     }
 
     .modal1 .modal-body p {
         font-weight: bold;
         }
 
+.modal1 .modal-body .cor {
+    width: 25%;
+    }
 
+.modal1 .modal-body .tamanho {
+    width: 25%;
+    }
+
+.modal1 .modal-body .preco1 {
+    width: 25%;
+    }
+
+.modal1 .modal-body .preco2 {
+    width: 25%;
+    }
+
+.modal1 .modal-footer .fecharmodal {
+    border: 0px;
+    margin-top: 35px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    }
+
+
+.modal1 .modal-body label {
+    margin-left: 10px;
+    }
+
+.preco2 #checkbox {
+    border-radius: 5px;
+    }
+
+
+ 
 
 .artigos {
  /*  background-color: teal; */
