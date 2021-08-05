@@ -1,8 +1,10 @@
 <div class="cx1">
     <div class="subcx1">
-        <div class="opacidade">
-            <p>Roupa</p>
-        </div>
+        <a href="artigos.php"> 
+            <div class="opacidade">
+                <p>Roupa</p>
+            </div>
+        </a>
     </div>
 </div>
    

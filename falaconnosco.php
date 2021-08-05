@@ -34,9 +34,11 @@
                 <div class="input-field">
                     <select id="problema" required> 
                             <option selected disabled value="">Em que podemos ajudar? *</option>
-                            <option>Reportar um problema</option>
-                            <option>Apresentar reclamação</option>
+                            <option>Solicitar informação</option>
                             <option>Apresentar sugestão de melhoria</option>
+                            <option>Reportar um problema com a encomenda</option>
+                            <option>Reportar um problema no site</option>
+                            <option>Apresentar reclamação</option>
                             <option>Outra situação</option>
                     </select> 
                     <div class="underline"> </div>

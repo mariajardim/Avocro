@@ -222,6 +222,11 @@
             background-color: rgba(97, 100, 105, 0.2);
             }  
 
+            #categorias a {
+               text-decoration: none;
+                color: white;
+                }             
+
 #desconto {
     width: 100%;
     height: 220px;
@@ -680,6 +685,7 @@
         color: #3F211A;
         z-index: 9999999;
         } 
+
 
     #active:checked ~ .menu-btn i:before{
         content:"\f00d"; 
@@ -1325,7 +1331,6 @@
     float: left;
     text-transform: uppercase;
     border: none;
-    width: 50%;
     color: rgb(63, 33, 26, 1);
     margin-bottom: 5px;
     font-weight: bold;
@@ -1468,6 +1473,49 @@
         margin-bottom: 40px;
         } 
 
+
+
+.modal1 {
+    background-color: rgb( 1, 1, 1, 0.5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display:none;
+    }
+
+    .modal1 .modal-content1{
+        margin:0 auto;
+        margin-top: 172px;
+        max-width: 900px;
+        background-color: white;
+        padding: 25px;
+        box-shadow: 0 0 2px white;
+        }
+
+        .modal1 .modal-head {
+            padding: 10px;
+            }
+        .modal1 .modal-head h1{
+            text-align: center;
+            font-weight: bold;
+            color : #3F211A;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            }
+.modal1 .modal-body {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    }
+
+    .modal1 .modal-body p {
+        font-weight: bold;
+        }
+
+
+
 .artigos {
  /*  background-color: teal; */
     height: 1490px;
@@ -1504,8 +1552,7 @@
         height: 100%;
         width: 100%;
         text-align: right;
-        background: grey;
-        opacity: 0;
+        background: #F4F2F2;
         float: right;
         cursor: pointer;
         }   
@@ -1556,3 +1603,5 @@
             font-size: 30px;
             color : #3F211A;
             }
+
+

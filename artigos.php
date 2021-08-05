@@ -49,9 +49,132 @@
             </select>
         </div>
         <div class="fil">
-            <i class="fas fa-filter"></i>
-            <p>Filtros</p>
+            <button class="abrirmodal" style="background:none; border:none" onclick="openModal('dv-modal')">
+                <i class="fas fa-filter"></i>
+                <p>Filtros</p>
+            </button>
         </div>
+    </div>
+
+    <div id="dv-modal" class="modal1">
+            <div class="modal-content1">
+                <div class="modal-head">
+                    <h1>Filtra a tua pesquisa</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="cor">
+                        <p>COR</P>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Azul</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Amarelo</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Preto</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Vermelho</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Branco</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Castanho</label>
+                        </div>
+                    </div>
+                    <div class="tamanho">
+                        <p>TAMANHO</P>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">S</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">M</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">L</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XL</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Tamanho Único</label>
+                        </div>
+                    </div>
+                    <div class="preco1">
+                        <p>PRECO</P>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">S</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">M</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">L</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XL</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Tamanho Único</label>
+                        </div>
+                    </div>
+                    <div class="preco2">
+                        <p></P>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">S</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">M</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">L</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">XL</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" >
+                            <label for="scales">Tamanho Único</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border:none;">
+                    <button class="fecharmodal" onclick="closeModal('dv-modal')">Ver Resultados</button>
+                </div>
+            </div>
     </div>
 
     <div class="produtos_filtros">
@@ -304,7 +427,27 @@
     </div>
 
 
+    <script>
+        function openModal(mn) {
+            let modal = document.getElementById(mn);
 
+            if (typeof modal == 'underfined' || modal === null)
+                return;
+
+                modal.style.display = 'Block';
+                
+        }
+
+    function closeModal(mn) {
+            let modal = document.getElementById(mn);
+
+            if (typeof modal == 'underfined' || modal === null)
+                return;
+
+                modal.style.display = 'none';
+  
+        }
+    </script>
 
 </body>
 </html>
