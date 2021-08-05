@@ -36,24 +36,108 @@
                 <option value="Pessoas">Pessoas</option>
                 <option value="Alimentos">Alimentos</option>
             </select>
-            <div class="underline"> </div>
     </div>
 
     <div class="filtrosordenacao">
+        <div class="ord">
+            <i class="fas fa-sort-amount-down-alt"></i>
+            <select>
+                <option value=""> Ordenar por </option>
+                <option value="Preço mais baixo"> Preço mais baixo </option>
+                <option value="Preço mais elevado">Preço mais elevado</option>
+                <option value="Mais vendidos">Mais vendidos</option>
+            </select>
+        </div>
         <div class="fil">
             <i class="fas fa-filter"></i>
             <p>Filtros</p>
         </div>
-        <div class="ord">
-            <i class="fas fa-sort-amount-down-alt"></i>
-            <p>Ordenação</p>
-        </div>
     </div>
-
 
     <div class="produtos_filtros">
-       
+        <ul>
+            <li>
+                <a href="#">
+                    <span>Filtro A</span>
+                    <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro B</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro C</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro D</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro E</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro F</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="#">
+                    <span>Filtro A</span>
+                    <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro B</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro C</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro D</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro E</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span>Filtro F</span>
+                <i class="fas fa-times"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="removerfiltro">
+            <a href="#">Remover todos os filtros</a>
+        </div>
+            <div class="underline"></div> 
     </div>
+
 
     <div class="artigos"> 
         <ul>

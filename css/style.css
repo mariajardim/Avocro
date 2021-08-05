@@ -619,6 +619,7 @@
     margin-top: 50px;
     margin-bottom: 0px;
     margin-left: 168px;
+    font-weight: bold;
     } 
 
 .quemsomos p {
@@ -728,6 +729,7 @@
     float: left;
     text-transform: uppercase;
     margin-left: 168px;
+    font-weight: bold;
     } 
 
 
@@ -831,6 +833,7 @@
     margin-top: 50px;
     margin-left: 168px;
     color: rgb(63, 33, 26);
+    font-weight: bold;
     } 
 
 .falaconnosco form {
@@ -1306,15 +1309,17 @@
     width: calc(50% - 168px);
     margin-top: 50px;
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 24px;
    /* background-color: hotpink; */
     float: left;
     height: 50px;
     margin-left: 168px;
+    align-items: center;
+    display: flex;
     } 
 
 .categoriaartigos select {
-    font-size: 14px;
+    font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     float: left;
     text-transform: uppercase;
@@ -1322,26 +1327,19 @@
     width: 50%;
     color: rgb(63, 33, 26, 1);
     margin-bottom: 5px;
+    font-weight: bold;
     } 
-
-    .categoriaartigos .underline {
-        content: '';
-        height: 1px;
-        width: 50%;
-        margin-right: 5px;
-        bottom:-5px;
-        left:0;
-        background: rgb(63, 33, 26, 0.2);
-        float: left;
-        } 
 
     .filtrosordenacao {
         width: 50%;
         margin-top: 50px;
         margin-bottom: 40px;
         font-size: 14px;
-       /* background-color: hotpink; */
+        /* background-color: hotpink; */
         float: left;
+        height: 50px;
+        display: flex;
+        align-items: center;
         } 
     
     .filtrosordenacao p {
@@ -1351,16 +1349,17 @@
         text-transform: uppercase;
         color: rgb(63, 33, 26, 1);
         margin-left: 10px;
+        margin-bottom: 0px;
         } 
     
 .filtrosordenacao .fil{
-            float: left;
-            margin-left: 325px;
+    float: right;
+    margin-left: 60px;
             } 
 
 .filtrosordenacao .ord{
-            float: right;
-            margin-right: 168px;
+    float: left;
+    margin-left: 220px;
             }     
 
             .filtrosordenacao i{
@@ -1369,15 +1368,104 @@
                 font-size: 14px;
                 margin-top: 5px;
                 }     
+                
+            .filtrosordenacao select{
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif;
+                float: left;
+                text-transform: uppercase;
+                border: none;
+                color: rgb(63, 33, 26, 1);
+                text-transform: uppercase;
+                margin-left: 10px;
+                width: auto;
+                    }  
     
 .produtos_filtros {
     width: 100%;
-    height: 100px;
-    background-color: red;
     float: left;
     }   
 
+.produtos_filtros ul {
+    float: left;
+    width: calc(100% - 316px);
+    margin-left: 158px;
+    margin-right: 158px;
+    display: flex;
+    }
 
+    .produtos_filtros ul li {
+        float: left;
+        width: 16.66%;
+        background: #F4F2F2;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 14px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        }
+
+            .produtos_filtros ul li a {
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-family: 'Open Sans', sans-serif;
+                    float: left;
+                    color: rgb(63, 33, 26, 1);
+                    display: flex;
+                    align-items: center;
+                    margin-left: 5px;
+                    }
+
+                        .produtos_filtros ul li a span {
+                            margin-right: 40px;
+                            margin-left: 10px;
+                            }
+
+
+                    .produtos_filtros ul li a i {
+                        text-decoration: none;
+                        font-size: 14px;
+                        float: right;
+                        color: rgb(63, 33, 26, 1);
+                        margin-left: 40px;
+                        margin-right: 10px;
+                        }
+                        
+                        .produtos_filtros .removerfiltro {
+                            width: 100%;
+                            float: left;
+                            margin-bottom: 10px;
+                            }
+
+                        .produtos_filtros .removerfiltro a {
+                            text-decoration: none;
+                            font-size: 14px;
+                            float: left;
+                            color:  rgb(63, 33, 26, 1);
+                            text-decoration: none;
+                            margin-left: 168px;
+                            height: 25px;
+                            margin-top: 35px;
+                            }
+
+                            .produtos_filtros .removerfiltro a:hover {
+                                color:  rgb(63, 33, 26, 0.5);
+                                }
+
+
+.produtos_filtros .underline {
+        content: '';
+        height: 1px;
+        width: calc(100% - 336px);
+        margin-left: 168px;
+        margin-right: 5px;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+        margin-bottom: 40px;
+        } 
 
 .artigos {
  /*  background-color: teal; */
