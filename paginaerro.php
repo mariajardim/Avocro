@@ -14,6 +14,7 @@
 </head>
 <body>
     <div class="pagerro">
+    <h2>Oops!</h2>
         <h1>ERRO 404</h1>
         <h3>Pedimos desculpa mas ainda estamos a crochetar esta página!</h3>
         
