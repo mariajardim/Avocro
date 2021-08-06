@@ -16,8 +16,9 @@
     <div class="pagerro">
         <h1>ERRO 404</h1>
         <h3>Pedimos desculpa mas ainda estamos a crochetar esta página!</h3>
-        </div> 
-            <a ref="home.php?" class="voltarhome">Regressar à Página Inicial</a>
+        
+        <div>
+            <a href="index.php?" class="voltarhome">Regressar à Página Inicial</a>
         </div> 
     </div> 
 </body>

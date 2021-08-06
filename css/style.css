@@ -1879,28 +1879,49 @@
             }
     
 .pagerro {
-    background-color:  #F4F2F2;
+   /* background-color: #F4F2F2; */
+    background-image: url(../images/Sem\ Título-4.png);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding: 20%;
+    padding: 10%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     }
 
 
     .pagerro h1 {
         font-size: 72px;
         color: rgb(63, 33, 26);
+        text-shadow : 2px 2px 5px rgba(255, 255, 255, 0.534);
+        margin-bottom: 15px;
         }
 
      .pagerro h3 {
-        font-size: 46px;
+        font-size: 24px;
         color: rgb(63, 33, 26);
+        margin-bottom: 25px;
+        text-shadow : 2px 2px 5px rgba(255, 255, 255, 0.534);
         }
 
-.pagerro .voltarhome {
+.pagerro a {
     background-color: rgb(63, 33, 26);
     color: white;
-    padding: 15px 20px;
-    font-size: 46px;
-    border-radius: 40px;
+    padding: 12px 24px;
+    font-size: 24px;
+    border-radius: 24px;
     text-decoration: none;
+    margin-top: 25px;
+    float: left;
     }   
+
+    .pagerro a:hover {
+        background-color: white;
+        color: rgb(63, 33, 26);
+        border: 2px;
+        border-color: rgb(63, 33, 26);
+        }   

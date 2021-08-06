@@ -4,7 +4,7 @@
         <div class="wrapper">
             <ul class="menu">
                 <li><a href="quemsomos.php?">Quem Somos?</a></li>
-                    <li><a href="artigos.php">Roupa</a></li>
+                    <li><a href="artigos.php?">Roupa</a></li>
                     <li><a href="#">Acessórios</a></li>
                     <li><a href="#">Amigurumis</a></li>
                     <li><a href="#">Aprender Croché</a></li>
