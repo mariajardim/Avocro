@@ -14,21 +14,23 @@
 <div class="produtos"> 
     <ul>
         <li>
-            <div class="imagem">
-                    <div class="opacidade"></div>
-            </div>
-            <div class="imagemdescricao">
-                <div class="produtodescricao"> 
-                    <p>Produto <br>
-                    Preço</p>
-                    <i class="far fa-circle"></i>
-                    <i class="far fa-circle"></i>
-                    <i class="far fa-circle"></i>
+            <a href="detalheproduto.php">
+                <div class="imagem">
+                        <div class="opacidade"></div>
                 </div>
-                <div class="coracao"> 
-                    <i class="far fa-heart"></i>
+                <div class="imagemdescricao">
+                    <div class="produtodescricao"> 
+                        <p>Produto <br>
+                        Preço</p>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="coracao"> 
+                        <i class="far fa-heart"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
         </li>
 
         <li>

@@ -1637,3 +1637,244 @@
             }
 
 
+
+.detalheproduto {
+    width: 100%;
+    height :100%;
+  /*  background-color: red; */
+    padding-top: 50px;
+    padding-left: 158px;
+    padding-right: 158px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    }
+
+    .detalheproduto .prod h1 {
+        margin-bottom: 15px;
+        padding: 0px;
+        font-size: 14px;
+        color: rgb(63, 33, 26, 1);
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        }
+
+    .detalheproduto .produto {
+            width: 100%;
+            height: 100%;
+           /* background-color: blue; */
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+    .detalheproduto .produto .tresimagens {
+        width: calc(16.66% - 20px);
+        height: 500px;
+        display: flex;
+      /*  background-color: purple; */
+        flex-direction: column;
+        align-items: center;
+        }
+
+.detalheproduto .produto .tresimagens .primeiraimagem {
+        width: 100%;
+        height: 151px;
+        padding: 0px;
+        margin-bottom: 25px;
+        background-color: #F4F2F2;
+        }
+
+.detalheproduto .produto .tresimagens .segundaimagem {
+        width: 100%;
+        height: 151px;
+        padding: 0px;
+        background-color: #F4F2F2;
+        }
+
+.detalheproduto .produto .tresimagens .terceiraimagem {
+        width: 100%;
+        height: 151px;
+        padding: 0px;
+        background-color: #F4F2F2;
+        margin-top: 25px;
+        }
+
+.detalheproduto .produto .umaimagem {
+        width: 58.33%;
+        height: 500px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #F4F2F2;
+        }
+
+
+.detalheproduto .produto .prod {
+        width: 24.99%;
+        height: 500px;
+      /*  background-color: lightslategray; */
+        }
+
+.detalheproduto  .infoproduto {
+            width: 100%;
+            height: 314px;
+        /*    background-color: lightgreen; */
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+            .detalheproduto  .infoproduto .descricao {
+                width: 33.32%;
+                height: 214px;
+           /*     background-color: lightskyblue; */
+                padding: 25px;
+                }
+
+            .detalheproduto  .infoproduto .composicao {
+                width: 33.32%;
+                height: 214px;
+             /*   background-color: peru; */
+                padding: 25px;
+                }
+            
+            .detalheproduto  .infoproduto .cuidados {
+                width: 33.32%;
+                height: 214px;
+            /*    background-color: lightseagreen; */
+                padding: 25px;
+                }
+
+    .detalheproduto  .infoproduto h2, p {
+                font-size: 14px;
+                color: rgb(63, 33, 26, 1);
+                font-family: 'Open Sans', sans-serif;
+                }
+
+    .detalheproduto  .infoproduto h2 {
+                margin-bottom: 25px;
+                padding: 0px;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                }
+
+.detalheproduto  .semelhanteproduto {
+            width: 100%;
+            height: 100%;
+         /*   background-color: lightsalmon; */
+            }
+    
+            
+.semelhanteproduto .titulo {
+  /*  background-color: teal; */
+    height: 40px;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    } 
+
+    .semelhanteproduto .titulo h2 {
+        margin-bottom: 15px;
+        padding: 0px;
+        font-size: 14px;
+        color: rgb(63, 33, 26, 1);
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        } 
+
+.semelhanteproduto .produtos {
+   /* background-color: teal; */
+    height: 100%;
+    display: flex;
+    } 
+
+    .semelhanteproduto .produtos ul {
+        width: 100%;
+        margin-bottom: none;
+        } 
+
+
+.semelhanteproduto  .produtos li {
+    width: calc(25% - 20px);
+    height: 100%;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+  /*  background: red; */
+    }
+
+  
+    .semelhanteproduto li .imagem {
+    height: 235px;
+    width: 100%;
+    text-align: center;
+    background: #F4F2F2;
+    }
+
+    .semelhanteproduto li .imagem .opacidade {
+        height: 100%;
+        width: 100%;
+        text-align: right;
+        background: grey;
+        opacity: 0;
+        float: right;
+        cursor: pointer;
+        }   
+
+        .semelhanteproduto li .imagem .opacidade:hover {
+            opacity: 1;
+            background-color: rgba(97, 100, 105, 0.2);
+            }   
+   
+    .semelhanteproduto  li .imagemdescricao {
+    height: 138px;
+    width: 100%;
+    /*   background: pink; */
+    }
+
+    .semelhanteproduto  li .produtodescricao {
+   /*     background: white;  */
+        margin-left: 5px;
+        margin-top: 25px;
+        float: left;
+        text-align: left;
+        }
+
+        .semelhanteproduto  li .produtodescricao p {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            color : #3F211A;
+            }
+
+            .semelhanteproduto  li .produtodescricao .far {
+            font-size: 16px;
+            margin-bottom: 25px;
+            margin-right: 5px;
+            color : #3F211A;
+            }
+           
+            .semelhanteproduto  li .coracao {
+        width: calc(50% - 5px);
+       /* background: rgb(38, 32, 99); */
+        margin-right: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        float: right;
+        }
+
+        .semelhanteproduto  .coracao .far {
+            float: right;
+            font-size: 30px;
+            color : #3F211A;
+            }
+    
