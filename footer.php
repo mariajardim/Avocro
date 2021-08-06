@@ -10,6 +10,7 @@
     <ul>
         <li><a href="politica.php?">Política de Privacidade</a></li>
         <li><a href="cookies.php?">Política de Cookies</a></li>
+        <li><a href="termoscondicoes.php?">Termos e Condições</a></li>
     </ul>
 </div>
 

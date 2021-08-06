@@ -1878,3 +1878,29 @@
             color : #3F211A;
             }
     
+.pagerro {
+    background-color:  #F4F2F2;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20%;
+    }
+
+
+    .pagerro h1 {
+        font-size: 72px;
+        color: rgb(63, 33, 26);
+        }
+
+     .pagerro h3 {
+        font-size: 46px;
+        color: rgb(63, 33, 26);
+        }
+
+.pagerro .voltarhome {
+    background-color: rgb(63, 33, 26);
+    color: white;
+    padding: 15px 20px;
+    font-size: 46px;
+    border-radius: 40px;
+    text-decoration: none;
+    }   
