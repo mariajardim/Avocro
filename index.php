@@ -36,6 +36,7 @@
     <div id="youtube">
       <div id="youtube">
         <?php include('youtube.php'); ?>
+        </div>
     </div>
     
     <div id="footer">

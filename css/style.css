@@ -1933,3 +1933,299 @@
         border: 2px;
         border-color: rgb(63, 33, 26);
         }   
+
+.minhacontadados .dadospessoais:active, 
+.minhacontadados .dadospessoais:focus {
+    text-decoration: underline;
+    font-weight: bold;
+    } 
+
+.minhaconta {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  /*   background-color: hotpink; */
+    float: left;
+    } 
+
+.minhaconta h1 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 168px;
+    font-weight: bold;
+    color: rgb(63, 33, 26);
+    } 
+
+    .minhacontadados {
+        width: 100%;
+        height: 100%;
+        float: left;
+      /*  background-color: teal; */
+        padding-left: 168px;
+        padding-right: 168px;
+        padding-top: 50px;
+      /*  padding-bottom: 50px; */
+        } 
+
+        .minhacontadados ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            float: left;
+            } 
+
+
+         .minhacontadados ul li {
+             margin-right: 50px;
+            list-style: none;
+            color: rgb(63, 33, 26);
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            font-size: 14px;
+            } 
+
+    .minhacontadados ul li a {
+        text-decoration: none;
+        color: rgb(63, 33, 26);
+        } 
+
+    .minhacontadados .underline {
+        content: '';
+        height: 1px;
+        width: 100%;
+        margin-right: 5px;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+      /*  margin-bottom: 40px; */
+        } 
+
+   .minhacontadados .conteudo {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 75px;
+            padding-left: 80px;
+            padding-right: 80px;
+         /*   background-color: tomato; */
+            height: 500px;
+            float: left;
+            height: 100%;
+            } 
+
+            .conteudo form {
+                display: flex;
+                width: 100%;
+                float: left;
+                flex-direction: row;
+                flex-wrap: wrap;
+                } 
+
+.conteudo form .input-field {
+    width: 50%;
+  /*  background-color: tomato; */
+    float: left;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(63, 33, 26, 1);
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 12px;
+    } 
+    .conteudo form .input-field label {
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 100%;
+        } 
+
+    .conteudo form .input-field select {
+        width: 100%;
+        background: none;
+        border: none;
+        color: rgb(63, 33, 26, 1);
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    
+    .conteudo form .input-field input {
+            outline: none;
+            border: 0;
+            width: 90%;
+            color: rgb(63, 33, 26, 1);
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom:5px;
+            background: none;
+            } 
+    
+        .conteudo form input::placeholder {
+            color: rgb(63, 33, 26, 0.5);
+            } 
+    
+        .conteudo form .underline {
+        content: '';
+        height: 1px;
+        width:100%;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+        } 
+    
+.conteudo button {
+        float: left;
+        margin-left: 10px;
+        } 
+    
+form h2 {
+    float: left;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(63, 33, 26, 1);
+    } 
+
+    #senha1 + button, 
+    #senha1 + button:hover, 
+    #senha1 + button:focus {
+        all: unset;
+        margin-left: 120px;
+        cursor: pointer;
+        color: rgb(63, 33, 26);
+    } 
+
+    #senha2 + button, 
+    #senha2 + button:hover, 
+    #senha2 + button:focus {
+        all: unset;
+        margin-left: 120px;
+        cursor: pointer;
+        color: rgb(63, 33, 26);
+    } 
+
+
+    #senha3 + button, 
+    #senha3 + button:hover, 
+    #senha3 + button:focus {
+        all: unset;
+        margin-left: 120px;
+        cursor: pointer;
+        color: rgb(63, 33, 26);
+    } 
+
+
+ .meiospagamento ul {
+            width: 100%;
+            align-items: center;
+            float: left;
+            flex-direction: column;
+            margin: 0px;
+            } 
+
+
+         .meiospagamento ul li {
+            margin: 0px;
+            list-style: none;
+            color: rgb(63, 33, 26);
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            font-size: 14px;
+            width: 100%;
+            height: 100px;
+            } 
+
+    .meiospagamento ul li a {
+        text-decoration: none;
+        color: rgb(63, 33, 26);
+        } 
+    
+
+    .meiospagamento .underline {
+        content: '';
+        height: 1px;
+        width: 100%;
+        margin-right: 5px;
+        bottom:-5px;
+        left:0;
+        background: rgb(63, 33, 26, 0.2);
+        float: left;
+      /*  margin-bottom: 40px; */
+        } 
+
+ .meiospagamento .caixa {
+        width: 100%;
+        height: 100%;
+        /*background: red;*/
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-top: 1px;
+        border-top-color: rgb(63, 33, 26, 0.2);
+        } 
+
+
+        .meiospagamento .caixa:hover {
+            background-color:  rgba(97, 100, 105, 0.2);
+            } 
+
+ .meiospagamento .caixa1 {
+        width: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 48px;
+        text-align: center;
+        } 
+
+        .meiospagamento .caixa2 {
+            width: 80%;
+            padding-left: 40px;
+            font-size: 14px;
+            text-align: left;
+            } 
+
+     .meiospagamento .caixa3 {
+            width: 10%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 16px;
+            text-align: center;
+            } 
+
+.meiospagamento .adicionarnovometodo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    } 
+
+
+.meiospagamento .adicionarnovometodo button {
+    margin-top: 50px;
+    text-align: right;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 16px;
+    background-color: rgb(63, 33, 26);
+    border-color: rgb(63, 33, 26);
+    } 
+
+.meiospagamento .adicionarnovometodo button:hover {
+    margin-top: 50px;
+    text-align: right;
+    color:rgb(63, 33, 26);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 16px;
+    background-color: white;
+    border-color: rgb(63, 33, 26);
+    } 
