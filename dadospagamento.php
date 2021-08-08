@@ -43,8 +43,9 @@
         </ul>
         <div class="underline"></div>
         <div class="adicionarnovometodo">
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="abrirmodal" onclick="openModal('dv-modal')">
                 Adicionar Novo Método de Pagamento
             </button>
         </div>
 </div>  
+  

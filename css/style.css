@@ -1934,11 +1934,6 @@
         border-color: rgb(63, 33, 26);
         }   
 
-.minhacontadados .dadospessoais:active, 
-.minhacontadados .dadospessoais:focus {
-    text-decoration: underline;
-    font-weight: bold;
-    } 
 
 .minhaconta {
     width: 100%;
@@ -2229,3 +2224,146 @@ form h2 {
     background-color: white;
     border-color: rgb(63, 33, 26);
     } 
+
+    .modal2 {
+        background-color: rgb( 1, 1, 1, 0.5);
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        display:none;
+        }
+    
+        .modal2 .modal-content2{
+            margin:0 auto;
+            margin-top: 172px;
+            max-width: 900px;
+            background-color: white;
+            padding: 25px;
+            padding-bottom: 50px;
+            box-shadow: 0 0 2px white;
+            }
+    
+            .modal2 .modal-head {
+                padding: 10px;
+                }
+        
+            .modal2 .modal-head h1{
+                text-align: center;
+                font-weight: bold;
+                color : #3F211A;
+                font-size: 16px;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+                }
+        
+    .modal2 .modal-body {
+        display: flex;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 0px;
+        }
+       
+    .modal2 .modal-footer .fecharmodal {
+        border: 0px;
+        margin-top: 35px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        }
+
+.modal2 .fundo {
+    background: rgba(244, 242, 242, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    flex-direction: column;
+            }
+
+
+            .modal2 .fundo:hover {
+                background-color:rgba(97, 100, 105, 0.2);
+                }
+    
+.modal2 .visa {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .modal2 .visa a i {
+        text-decoration: none;
+        color : #3F211A;
+        font-size: 80px;
+        }
+    
+
+    .modal2 .visa a p {
+        text-decoration: none;
+        color : #3F211A;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        }
+      
+
+    .modal2 .mastercard {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+
+        .modal2 .mastercard a i {
+            text-decoration: none;
+            color : #3F211A;
+            font-size: 80px;
+            }
+
+            
+
+    
+        .modal2 .mastercard a p {
+            text-decoration: none;
+            color : #3F211A;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 15px;
+            margin-bottom: 0px;
+            font-weight: bold;
+            }
+
+           
+
+.modal2 .mastercard a {
+    text-decoration: none;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+
+.modal2 .visa a {
+    text-decoration: none;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    }
+
+    .modal2 .prifundo {
+        width: 100%;
+        height: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
