@@ -42,10 +42,12 @@
             </li>
         </ul>
         <div class="underline"></div>
-        <div class="adicionarnovometodo">
-            <a href="minhaconta.php?area=novopagamento">
-                Adicionar Novo Método de Pagamento
-            </a>
+        <div class="adicionar">
+            <div class="adicionarnovometodo">
+                <a href="minhaconta.php?area=novopagamento">
+                    Adicionar Novo Método de Pagamento
+                </a>
+            </div>
         </div>
 </div>  
   

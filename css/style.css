@@ -2086,14 +2086,53 @@
         margin-left: 10px;
         } 
     
+
+        .dadospessoais1 .guardaralteracoes {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            }
+    
+            .dadospessoais1 .guardaralteracoes .guardaral {
+                width: 30%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                padding-left: 10px;
+                padding-right: 10px;
+                }
+    
+    
+        .dadospessoais1 .guardaralteracoes .guardaral button {
+            width: 100%;
+            background-color: white;
+            color: rgb(63, 33, 26);
+            border: 1px solid transparent;
+            border-color: rgb(63, 33, 26);
+            border-radius: 14px;
+            margin: 0px;
+            padding: 5px;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            }
+                
+        .dadospessoais1 .guardaralteracoes .guardaral button:hover {
+            background-color: rgb(63, 33, 26, 0.1);
+            }
+
+
 form h2 {
     float: left;
     margin-left: 10px;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 30px;
     color: rgb(63, 33, 26, 1);
+    font-weight: bold;
+    text-transform: uppercase;
     } 
 
     #senha1 + button, 
@@ -2124,6 +2163,40 @@ form h2 {
         color: rgb(63, 33, 26);
     } 
 
+    .dadosacesso1 .guardaralteracoes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        }
+
+        .dadosacesso1 .guardaralteracoes .guardaral {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+
+    .dadosacesso1 .guardaralteracoes .guardaral button {
+        width: 100%;
+        background-color: white;
+        color: rgb(63, 33, 26);
+        border: 1px solid transparent;
+        border-color: rgb(63, 33, 26);
+        border-radius: 14px;
+        margin: 0px;
+        padding: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        }
+            
+    .dadosacesso1 .guardaralteracoes .guardaral button:hover {
+        background-color: rgb(63, 33, 26, 0.1);
+        }
 
  .meiospagamento ul {
             width: 100%;
@@ -2210,46 +2283,54 @@ form h2 {
     justify-content: flex-end;
     } 
 
+    .meiospagamento .adicionar {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 50px;
+        }
 
-.meiospagamento .adicionarnovometodo button {
-    margin-top: 50px;
-    text-align: right;
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border-radius: 16px;
-    background-color: rgb(63, 33, 26);
-    border-color: rgb(63, 33, 26);
-    } 
+        .meiospagamento .adicionar .adicionarnovometodo {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
 
-.meiospagamento .adicionarnovometodo button:hover {
-    margin-top: 50px;
-    text-align: right;
-    color:rgb(63, 33, 26);
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border-radius: 16px;
-    background-color: white;
-    border-color: rgb(63, 33, 26);
-    } 
+    .meiospagamento .adicionar .adicionarnovometodo a {
+        width: 100%;
+        background-color: rgb(63, 33, 26);
+        color: white;
+        border: 1px solid transparent;
+        border-color: rgb(63, 33, 26);
+        border-radius: 14px;
+        margin: 0px;
+        padding: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        }
+            
+        .meiospagamento .adicionar .adicionarnovometodo a:hover {
+        background-color: rgb(63, 33, 26, 0.8);
+        }
 
-.novopagamento .voltarpagamentos h2 {
+.novopagamento .tpagamentos h2 {
     font-weight: bold;
     color: #3F211A;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     margin: 0px;
     margin-bottom: 50px;
     margin-left: 10px;
     }
-
-.novopagamento .voltarpagamentos i{
-    margin-right: 25px;
-    margin-left: 10px;
-    }
-
 
         
     .novopagamento .novopagamento-body .metodo{
@@ -2379,3 +2460,104 @@ form h2 {
         background-color: rgb(63, 33, 26, 0.8);
         }
             
+.detalhepagamento .detpagamentos h2 {
+    font-weight: bold;
+    color: #3F211A;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    }
+
+    
+    .detalhepagamento .metodopagamento-body  i {
+                        font-size: 50px;
+                        cursor: pointer;
+                        }
+
+    .detalhepagamento .metodopagamento-body  input {
+                        cursor: pointer;
+                        }
+
+
+    .detalhepagamento .metodopagamento-body label {
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                        margin-left: 10px;
+                        color: #3F211A;
+                        font-family: 'Open Sans', sans-serif;
+                        }
+
+    .detalhepagamento .metodopagamento-body .metodofundo {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background:  #F4F2F2;
+                        padding: 25px;
+                        }
+
+    .detalhepagamento .guardaralteracoes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        }
+
+        .detalhepagamento .guardaralteracoes .guardaral {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+
+    .detalhepagamento .guardaralteracoes .guardaral button {
+        width: 100%;
+        background-color: white;
+        color: rgb(63, 33, 26);
+        border: 1px solid transparent;
+        border-color: rgb(63, 33, 26);
+        border-radius: 14px;
+        margin: 0px;
+        padding: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        }
+            
+    .detalhepagamento .guardaralteracoes .guardaral button:hover {
+        background-color: rgb(63, 33, 26, 0.1);
+        }
+    
+
+        .detalhepagamento .guardaralteracoes .eliminar  {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+.detalhepagamento .guardaralteracoes .eliminar button {
+        width: 50%;
+        background-color: rgb(219, 52, 14);
+        color: white;
+        border: 1px solid transparent;
+        border-color: rgb(219, 52, 14);
+        border-radius: 14px;
+        margin: 0px;
+        padding: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        }
+
+        .detalhepagamento .guardaralteracoes .eliminar button:hover {
+            background-color: rgb(219, 52, 14, 0.8);
+            }

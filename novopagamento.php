@@ -1,5 +1,5 @@
 <div class="novopagamento">
-    <div class="voltarpagamentos">
+    <div class="tpagamentos">
             <h2>NOVO METODO DE PAGAMENTO</h2>
     </div>
     <div class="novopagamento-body">

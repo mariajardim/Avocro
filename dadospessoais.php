@@ -1,4 +1,5 @@
-<form action="" method="POST">
+<div class="dadospessoais1">
+    <form action="" method="POST">
                 <div class="input-field">
                     <label>Nome *</label>
                     <input type="text" name="nome" id="nome" placeholder="Informação da Base de dados" required>
@@ -53,7 +54,12 @@
                 <div class="input-field" style="float:none;">
                     <label></label>
                 </div>
-                <button type="submit" class="btn btn-primary">
-                    Atualizar Dados
-               </button>
-</form>
+                <div class="guardaralteracoes">
+                    <div class="guardaral">
+                        <button type="submit" class="btn btn-primary">
+                            Atualizar Dados
+                        </button>
+                    </div>
+                </div>
+    </form>
+</div>

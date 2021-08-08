@@ -1,4 +1,5 @@
-<form action="" method="POST">
+<div class="dadosacesso1">
+    <form action="" method="POST">
                 <h2><b>Alterar E-mail de Acesso</b></h2>
                 <div class="input-field">
                     <label>Palavra-chave Atual *</label>
@@ -19,9 +20,13 @@
                     <input type="email" name="confiemail" id="confiemail" placeholder="Confirmar Novo E-mail *" required>
                     <div class="underline"></div>
                 </div>
-                <button type="submit" class="btn btn-primary" style="margin-bottom: 75px;">
-                    Atualizar Dados
-                </button>
+                <div class="guardaralteracoes">
+                    <div class="guardaral">
+                        <button type="submit" class="btn btn-primary" style="margin-bottom: 75px">
+                            Atualizar E-mail
+                        </button>
+                    </div>
+                </div>
 </form>
 
 <form action="" method="POST">
@@ -47,11 +52,15 @@
                     <button type="button" title="Ver ou ocultar senha" onclick="viewSenha1()" style="text-align: right; width: 9%; margin: 0px;"><i class="fas fa-eye"></i></button> 
                     <div class="underline"></div>
                 </div>
-                <button type="submit" class="btn btn-primary">
-                    Atualizar Dados
-               </button>
+                <div class="guardaralteracoes">
+                    <div class="guardaral">
+                        <button type="submit" class="btn btn-primary">
+                            Atualizar Palavra-Passe
+                        </button>
+                    </div>
+                </div>
 </form>
-
+</div>
 
 <script>
     function viewSenha(){
