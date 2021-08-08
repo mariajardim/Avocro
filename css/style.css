@@ -1977,16 +1977,24 @@
          .minhacontadados ul li {
              margin-right: 50px;
             list-style: none;
-            color: rgb(63, 33, 26);
-            font-family: 'Open Sans', sans-serif;
             float: left;
-            font-size: 14px;
             } 
 
     .minhacontadados ul li a {
         text-decoration: none;
-        color: rgb(63, 33, 26);
         } 
+
+        .minhacontadados ul li a span {
+            color: rgb(63, 33, 26);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;    
+            } 
+
+        .minhacontadados ul li a span:hover,
+        .minhacontadados ul li a span:active,
+        .minhacontadados ul li a span:focus {
+            color: rgb(63, 33, 26, 0.5);
+            } 
 
     .minhacontadados .underline {
         content: '';
