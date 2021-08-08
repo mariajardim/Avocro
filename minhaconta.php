@@ -66,8 +66,7 @@
                         case 'encomendas' : {include('encomendas.php'); } break;
                         case 'detalhepagamento' : {include('detalhepagamento.php'); } break;
                         case 'detalheencomenda' : {include('detalheencomenda.php'); } break;
-                        case 'visa' : {include('visa.php'); } break;
-                        case 'mastercard' : {include('mastercard.php'); } break;
+                        case 'novopagamento' : {include('novopagamento.php'); } break;
                         
 
                         default : {include('paginaerro.php'); } break;
@@ -75,36 +74,6 @@
             ?>
         </div>
         </div>
-    </div>
-    <div id="dv-modal" class="modal2">
-            <div class="modal-content2">
-                <div class="modal-head">
-                    <button class="fecharmodal" onclick="closeModal('dv-modal')" style="float:right; background:none; border:none; font-size:20px;"><i class="fas fa-times" style="float: right;"></i></button>
-                    <h1>NOVO METODO DE PAGAMENTO</h1>
-                </div>
-                <div class="modal-body">
-                    <div class="visa">
-                        <div class="prifundo">
-                            <a href="minhaconta.php?area=visa" style="text-decoration:none;">
-                                <div class="fundo">
-                                    <i class="fab fa-cc-visa"></i>
-                                    <p>Visa</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mastercard">
-                        <div class="prifundo">
-                            <a href="minhaconta.php?area=mastercard" style="text-decoration:none;">
-                                <div class="fundo">
-                                    <i class="fab fa-cc-mastercard"></i>
-                                    <p>Mastercard</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </div>
 
     <div id="footer">

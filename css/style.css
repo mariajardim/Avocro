@@ -18,7 +18,7 @@
 
 #header {
     width: 100%;
-    height: 122px;
+   
     float: left;
     position: fixed;
     }
@@ -2043,6 +2043,7 @@
         margin-bottom: 20px;
         font-size: 14px;
         width: 100%;
+        margin-left: 0px;
         } 
 
     .conteudo form .input-field select {
@@ -2233,145 +2234,148 @@ form h2 {
     border-color: rgb(63, 33, 26);
     } 
 
-    .modal2 {
-        background-color: rgb( 1, 1, 1, 0.5);
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        display:none;
-        }
-    
-        .modal2 .modal-content2{
-            margin:0 auto;
-            margin-top: 172px;
-            max-width: 900px;
-            background-color: white;
-            padding: 25px;
-            padding-bottom: 50px;
-            box-shadow: 0 0 2px white;
-            }
-    
-            .modal2 .modal-head {
-                padding: 10px;
-                }
-        
-            .modal2 .modal-head h1{
-                text-align: center;
-                font-weight: bold;
-                color : #3F211A;
-                font-size: 16px;
-                font-family: 'Open Sans', sans-serif;
-                text-transform: uppercase;
-                margin-bottom: 40px;
-                }
-        
-    .modal2 .modal-body {
-        display: flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        padding: 0px;
-        }
-       
-    .modal2 .modal-footer .fecharmodal {
-        border: 0px;
-        margin-top: 35px;
-        margin-right: 0px;
-        margin-bottom: 25px;
-        }
-
-.modal2 .fundo {
-    background: rgba(244, 242, 242, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
-    flex-direction: column;
-            }
-
-
-            .modal2 .fundo:hover {
-                background-color:rgba(97, 100, 105, 0.2);
-                }
-    
-.modal2 .visa {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.novopagamento .voltarpagamentos h2 {
+    font-weight: bold;
+    color: #3F211A;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-left: 10px;
     }
 
-    .modal2 .visa a i {
-        text-decoration: none;
-        color : #3F211A;
-        font-size: 80px;
-        }
-    
-
-    .modal2 .visa a p {
-        text-decoration: none;
-        color : #3F211A;
-        font-size: 16px;
-        font-family: 'Open Sans', sans-serif;
-        margin-top: 15px;
-        margin-bottom: 0px;
-        font-weight: bold;
-        }
-      
-
-    .modal2 .mastercard {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
+.novopagamento .voltarpagamentos i{
+    margin-right: 25px;
+    margin-left: 10px;
+    }
 
 
-        .modal2 .mastercard a i {
-            text-decoration: none;
-            color : #3F211A;
-            font-size: 80px;
-            }
+        
+    .novopagamento .novopagamento-body .metodo{
+                width: 100%;
+                display:flex;
+                height: 100%;
+                padding-left: 10px;
+                padding-bottom: 40px;
+                padding-right: 10px;
+                }
+        
 
+    .novopagamento .novopagamento-body .metodovisa{
+                    width: 20%;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    align-content: flex-end;
+                    justify-content: space-evenly;
+                    margin-right: 10px;
+                    }
             
 
-    
-        .modal2 .mastercard a p {
-            text-decoration: none;
-            color : #3F211A;
-            font-size: 16px;
-            font-family: 'Open Sans', sans-serif;
-            margin-top: 15px;
-            margin-bottom: 0px;
-            font-weight: bold;
-            }
+    .novopagamento .novopagamento-body .metodomastercard{
+                    width: 20%;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    align-content: flex-end;
+                    justify-content: space-evenly;
+                    margin-right: 10px;
+                    }
 
-           
-
-.modal2 .mastercard a {
-    text-decoration: none;
-    width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
-    }
+    .novopagamento .novopagamento-body i {
+                        font-size: 50px;
+                        cursor: pointer;
+                        }
+    .novopagamento .novopagamento-body input {
+                        cursor: pointer;
+                        }
 
 
-.modal2 .visa a {
-    text-decoration: none;
-    width: 100%;
-    padding-right: 25px;
-    padding-left: 25px;
-    }
+    .novopagamento .novopagamento-body  label {
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                        margin-left: 10px;
+                        color: #3F211A;
+                        font-family: 'Open Sans', sans-serif;
+                        }
 
-    .modal2 .prifundo {
+    .novopagamento .novopagamento-body  .metodofundo {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background:  #F4F2F2;
+                        padding: 25px;
+                        }
+
+ .novopagamento .cancelarouconfirmar {
         width: 100%;
         height: 100%;
-        float: left;
         display: flex;
-        justify-content: center;
         align-items: center;
         }
+
+        .novopagamento .cancelarouconfirmar .cancelar {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+        .novopagamento .cancelarouconfirmar .confirmar {
+            width: 50%;
+            background-color: white;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            padding-left: 10px;
+            }
+
+ .novopagamento .cancelarouconfirmar .cancelar a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid transparent;
+    border-color: rgb(63, 33, 26);
+    border-radius: 14px;
+            }
+
+            .novopagamento .cancelarouconfirmar .cancelar a:hover {
+                background-color: rgb(63, 33, 26, 0.1);
+                        }
+
+            .novopagamento .cancelarouconfirmar .cancelar a p {
+                height: 100%;
+                margin: 0px;
+                padding: 5px;
+                font-size: 14px;
+                color: #3F211A;
+                font-family: 'Open Sans', sans-serif;
+                }
+
+
+.novopagamento .cancelarouconfirmar .confirmar button {
+    width: 100%;
+    background-color: rgb(63, 33, 26);
+    color: white;
+    border: 1px solid transparent;
+    border-color: rgb(63, 33, 26);
+    border-radius: 14px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    }
+        
+    .novopagamento .cancelarouconfirmar .confirmar button:hover {
+        background-color: rgb(63, 33, 26, 0.8);
+        }
+            

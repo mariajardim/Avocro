@@ -43,9 +43,9 @@
         </ul>
         <div class="underline"></div>
         <div class="adicionarnovometodo">
-            <button type="submit" class="abrirmodal" onclick="openModal('dv-modal')">
+            <a href="minhaconta.php?area=novopagamento">
                 Adicionar Novo Método de Pagamento
-            </button>
+            </a>
         </div>
 </div>  
   
