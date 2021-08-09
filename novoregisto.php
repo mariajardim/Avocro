@@ -25,7 +25,7 @@
 
         <div class="quadrado">
             <h1><b>Novo Registo</b></h1>
-            <form action="" method="POST">
+            <form action="registar_utilizador.php" method="POST">
                 <div class="input-field">
                     <input type="text" name="nome" id="nome" placeholder="Nome *" required>
                     <div class="underline"> </div>
@@ -50,11 +50,11 @@
                 </div>
                 
                 <div class="ativarpolitica">
-                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                    <input type="checkbox" name="aceitarpolitica" id="checkbox" required>
                     <p>Aceito a Política de privacidade e os termos e Condições do site.</p> 
                 </div>
 
-               <button type="submit" class="btn btn-primary">
+               <button  class="btn btn-primary">
                     Confirmar
                </button>
                 <div class="conta">
@@ -64,6 +64,13 @@
             </form>
         </div>
     </div>
+
+    <?php
+    if(isset($_GET['status']) && $_GET['status']=='ok' ){
+        echo "Registo efectuado com sucesso";
+    }
+?>
+
 
     <div id="footer">
           <?php include('footer.php'); ?>
