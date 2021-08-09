@@ -2488,6 +2488,181 @@
         color: rgb(141, 113, 106);
         } 
 
+
+
+        @media (max-width: 660px) {
+            .novoregisto {
+                width: 100%;
+                height: 100%;
+                font-size: 28px;
+                float: left;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                } 
+            
+            .novoregisto .quadrado{
+                width: 100%;
+                height: 100%;
+                float: left;
+                text-align: center;
+               /* background-color: red; */
+               padding-left:10px;
+               padding-right: 10px;
+                } 
+            
+                    .novoregisto .quadrado h1 {
+                        width: 100%;
+                        font-size: 28px;
+                        font-family: 'Open Sans', sans-serif;
+                        text-transform: uppercase;
+                        margin-top: 100px;
+                        color: rgb(63, 33, 26);
+                        } 
+            
+                  .novoregisto #senha {
+                        width: 90%;
+                        float: left;
+                        padding-right: 0px; 
+                        } 
+            
+                        #senha + button,
+                        #senha + button:hover,
+                        #senha + button:focus {
+                                all: unset;
+                                margin-left: 0px;
+                                cursor: pointer;
+                                color: rgb(63, 33, 26);
+                                width: 1%;
+                                }
+        
+                 .novoregisto #senha1 {
+                        width: 90%;
+                        float: left;
+                        padding-right: 0px; 
+                        } 
+            
+                        #senha1 + button,
+                        #senha1 + button:hover,
+                        #senha1 + button:focus {
+                                all: unset;
+                                margin-left: 21px !important;
+                                cursor: pointer;
+                                color: rgb(63, 33, 26);
+                                width: 1%;
+                                }
+            
+                    .novoregisto .input-field button {
+                        width: 20%;
+                        float: left;
+                        text-align: right;
+                        }   
+                
+            
+            .novoregisto form {
+                font-size: 24px;
+                font-family: 'Open Sans', sans-serif;
+                margin-top: 100px;
+                border: 0;
+                padding: 0;
+                box-sizing: border-box;
+                } 
+            
+            
+            .novoregisto .input-field  {
+                margin-bottom: 100px;
+                } 
+
+
+            .novoregisto .input-field:last-child {
+                    margin-bottom: 0px;
+                    } 
+            
+            .novoregisto .input-field input {
+                    outline: none;
+                    border: 0;
+                    width: 100%;
+                    color: rgb(63, 33, 26, 1);
+                    margin-bottom:5px;
+                    } 
+            
+                    .novoregisto input::placeholder {
+                        color: rgb(63, 33, 26, 0.5);
+                        } 
+            
+            .novoregisto .underline {
+                content: '';
+                height: 1px;
+                width:100%;
+                bottom:-5px;
+                left:0;
+                background: rgb(63, 33, 26, 0.2);
+                float: left;
+                } 
+            
+        
+        .novoregisto .ativarpolitica {
+            height: 25px;
+            margin-bottom: 50px;
+            margin-top:-50px;
+            } 
+        
+        .novoregisto .ativarpolitica input {
+                float: left;
+                margin-top: 5px;
+                height: 50px;
+                width: 50px;
+                } 
+        
+        .novoregisto .ativarpolitica p {
+                float: left;
+                margin-left: 10px;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(63, 33, 26);
+                font-size: 24px ;
+                text-align: left;
+                width: 80%;
+                margin-bottom: 100px;
+                } 
+        
+        
+        .novoregisto button {
+                width: 100%;
+                font-size: 28px;
+                } 
+        
+        .novoregisto .conta {
+            width: 100%;
+            margin-top: 0px;
+            } 
+        
+            .novoregisto .conta p {
+                float: left;
+                width: 50%;
+                text-align: end;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(63, 33, 26);
+                font-size: 22px;
+                margin-top: 50px;
+                margin-bottom: 100px;
+                } 
+            .novoregisto a {
+                float: left;
+                margin-left: 0px;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(141, 113, 106);
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 100px;
+                margin-top: 50px;
+                width: calc(50% - 10px);
+                text-align: left;
+                margin-left: 10px;
+                } 
+        
+        
+        }
+
  .pesquisa {
         width: 100%;
         height: 568px;
