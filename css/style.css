@@ -2244,7 +2244,7 @@
                         } 
             
                   .login #senha {
-                        width: 94%;
+                        width: 90%;
                         float: left;
                         padding-right: 0px; 
                         } 
@@ -2252,12 +2252,12 @@
                         #senha + button,
                         #senha + button:hover,
                         #senha + button:focus {
-                                all: unset;
-                                margin-left: 0px !important;
-                                margin:0px;
-                                cursor: pointer;
-                                color: rgb(63, 33, 26);
-                                }
+                            all: unset;
+                            margin-left: 0px;
+                            cursor: pointer;
+                            color: rgb(63, 33, 26);
+                            margin-left: 21px !important;
+                            }
 
                                 .login .input-field button {
                                     width: 20%;
@@ -2430,6 +2430,7 @@
             width: 100%;
             color: rgb(63, 33, 26, 1);
             margin-bottom:5px;
+            padding: 0px;
             } 
     
             .novoregisto input::placeholder {
@@ -2533,7 +2534,7 @@
                                 margin-left: 0px;
                                 cursor: pointer;
                                 color: rgb(63, 33, 26);
-                                width: 1%;
+                                margin-left: 21px !important;
                                 }
         
                  .novoregisto #senha1 {
@@ -2549,7 +2550,7 @@
                                 margin-left: 21px !important;
                                 cursor: pointer;
                                 color: rgb(63, 33, 26);
-                                width: 1%;
+                  
                                 }
             
                     .novoregisto .input-field button {
@@ -2616,7 +2617,7 @@
         
         .novoregisto .ativarpolitica p {
                 float: left;
-                margin-left: 10px;
+                margin-left: 25px;
                 font-family: 'Open Sans', sans-serif;
                 color: rgb(63, 33, 26);
                 font-size: 24px ;
