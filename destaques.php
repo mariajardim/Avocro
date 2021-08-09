@@ -1,5 +1,6 @@
 <div class="titulo">
     <p>Destaques</p>
+    <div class="filtromobile"><i class="fas fa-filter"></i></div>
 </div>
 
 <div class="filtros">

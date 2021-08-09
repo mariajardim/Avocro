@@ -36,5 +36,10 @@
         <li> 
             <a href="login.php?"><i class="fas fa-user-alt"></i></a>
         </li>
+        <li> 
+            <div id="menu">
+                <?php include('menu.php'); ?>
+            </div>
+        </li>
     </ul>
  </div>
