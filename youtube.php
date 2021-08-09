@@ -1,5 +1,5 @@
 <div class="canalyoutube">
-     <p> Queres aprender croché? <br>
+     <p> Queres aprender croché?
     Subscreve o nosso canal.</p>
 </div>
 
