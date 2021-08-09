@@ -151,7 +151,6 @@
     height: 200px;
     align-items: center;
     width: 100%;
-    background-color: red;
     flex-direction: row;
     justify-content: flex-end;
         
@@ -161,6 +160,8 @@
         #header .iconescima .menuhamburguer label {
             font-size: 50px;
             color :#3F211A;
+            margin-right: -15px;
+
             }
 
             #header .iconescima .menuhamburguer {
@@ -178,7 +179,7 @@
                 font-size: 50px;
                 color :#3F211A;
                 position: fixed;
-                margin-left: 15px;
+                margin-left: 30px;
                 }
 
 }
@@ -834,6 +835,103 @@
             font-size: 30px;
             color : #3F211A;
             }
+
+@media (max-width: 660px) {
+        
+    #destaques .produtos {
+        /*  background-color: teal; */
+         height: 100%;
+         } 
+     
+     #destaques .produtos ul{
+             padding: 10px;
+             height: 100%;
+             margin: 0px;
+             display: flex;
+             flex-direction: column;
+         }
+     
+     #destaques .produtos li {
+         width: 100%;
+         height: 100%;
+         float: left;
+         list-style: none;
+         /* margin-bottom: 10px; */
+         text-align: center;
+         margin: 0px;
+       /*  background: red; */
+         }
+     
+     #destaques li .imagem {
+         height: 325px;
+         width: 100%;
+         text-align: center;
+         background: #F4F2F2;
+         }
+     
+         #destaques li .imagem .opacidade {
+             height: 100%;
+             width: 100%;
+             text-align: right;
+             background: grey;
+             opacity: 0;
+             float: right;
+             cursor: pointer;
+             }   
+     
+             #destaques li .imagem .opacidade:hover {
+                 opacity: 1;
+                 background-color: rgba(97, 100, 105, 0.2);
+                 }   
+        
+     #destaques li .imagemdescricao {
+         height: 200px;
+         width: 100%;
+      /*   background: pink; */
+         }
+     
+         #destaques li .produtodescricao {
+        /*     background: white;  */
+             margin-left: 5px;
+             margin-top: 25px;
+             float: left;
+             text-align: left;
+             }
+     
+             #destaques li .produtodescricao p {
+                 font-size: 28px;
+                 font-family: 'Open Sans', sans-serif;
+                 color : #3F211A;
+                 margin-bottom: 20px;
+                 }
+     
+             #destaques li .produtodescricao .far {
+                 font-size: 32px;
+                 margin-bottom: 25px;
+                 margin-right: 5px;
+                 color : #3F211A;
+                 }
+                
+         #destaques li .coracao {
+             width: calc(50% - 5px);
+            /* background: rgb(38, 32, 99); */
+             margin-right: 5px;
+             margin-top: 25px;
+             margin-bottom: 25px;
+             float: right;
+             }
+     
+             #destaques .coracao .far {
+                 float: right;
+                 font-size: 50px;
+                 color : #3F211A;
+                 }
+
+    }
+
+
+
+
 
 #youtube {
     width: 100%;
