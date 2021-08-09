@@ -35,7 +35,7 @@
                     <button type="button" title="Ver ou ocultar senha" onclick="viewSenha()"><i class="fas fa-eye"></i></button> 
                     <div class="underline"></div>
                 </div>
-               <button type="submit" class="btn btn-primary" style="WIDTH: 50%;">
+               <button type="submit" class="btn btn-primary">
                     Iniciar Sessão
                </button>
                     <a href="novoregisto.php?" type="button" class="btn btn-primary">Novo Registo</a>
