@@ -1318,7 +1318,6 @@
 .quemsomos {
     width: 50%;
     height: 468px;
-    font-size: 14px;
     /* background-color: hotpink; */
     float: left;
     } 
@@ -1332,6 +1331,7 @@
     margin-bottom: 0px;
     margin-left: 168px;
     font-weight: bold;
+    color : #3F211A;
     } 
 
 .quemsomos p {
@@ -1341,6 +1341,7 @@
     margin-top: 50px;
     margin-left: 168px;
     margin-right: 50px;
+    color : #3F211A;
     } 
 
 .loja {
@@ -1354,6 +1355,67 @@
     background-position: top center;
     margin-bottom: 50px;
     } 
+
+
+    @media (max-width: 660px) {
+        
+        .branco {
+            width: 100%;
+            height: 122px;
+            background-color: white;
+            float: left;
+            } 
+        
+        .quemsomos {
+            width: 100%;
+            height: 100%;
+            /* background-color: hotpink; */
+            float: left;
+            margin-bottom: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            } 
+        
+        .quemsomos h1 {
+            font-size: 28px;
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            text-transform: uppercase;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            font-weight: bold;
+            color : #3F211A;
+            } 
+        
+        .quemsomos p {
+            font-size: 28px;
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            margin-top: 50px;
+            margin-left: 0px;
+            margin-right: 0px;
+            color : #3F211A;
+            } 
+        
+            .baseloja {
+                padding-left: 10px;
+                padding-right: 10px;
+                } 
+
+
+        .loja {
+            width: 100%;
+            height: 615px;
+            /* background-color: lightgrey; */
+            float: left;
+            background-image: url('../images/marcus-loke-xXJ6utyoSw0-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            margin-bottom: 50px;
+            } 
+        }
 
 #menu .wrapper {
     width: 100%;

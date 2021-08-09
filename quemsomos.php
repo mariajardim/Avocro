@@ -27,7 +27,9 @@
             A nossa empresa tem como objetivo mostrar a paixão pelo croché através dos seu artigos sufesticados e modernos. </p>
     </div>
 
-    <div class="loja"></div>
+   <div class="baseloja">
+        <div class="loja"></div>
+    </div>
     
     <div id="footer">
           <?php include('footer.php'); ?>
