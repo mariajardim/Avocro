@@ -38,17 +38,3 @@
         </li>
     </ul>
 </div>
-<div class="iconescima">
-    <div class="carrinho"> 
-                    <div id="menu">
-                        <a href="compras.php?">
-                            <i class="fas fa-shopping-bag"></i>
-                        </a>
-                    </div>
-    </div>    
-    <div class="menuhamburguer"> 
-                    <div id="menu">
-                        <?php include('menu.php'); ?>
-                    </div>
-    </div>
-</div>
