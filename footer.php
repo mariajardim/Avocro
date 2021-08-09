@@ -1,5 +1,5 @@
 <div class="parte1">
-    <h3>NOME DA EMPRESA </h3>
+    <h3>AVÓCRÓ </h3>
     <ul>
         <li><a href="quemsomos.php?">Quem Somos?</a></li>
     </ul>
@@ -10,16 +10,27 @@
     <ul>
         <li><a href="politica.php?">Política de Privacidade</a></li>
         <li><a href="cookies.php?">Política de Cookies</a></li>
-        <li><a href="termoscondicoes.php?">Termos e Condições</a></li>
     </ul>
 </div>
 
 <div class="parte3">
-    <h3>Termos e Condições </h3>
+    <h3 style="color:#6F5853;">.</h3>
     <ul>
+        <li><a href="termoscondicoes.php?">Termos e Condições</a></li>
         <li>Reclamações </li>
     </ul>
 </div>
+
+<div class="parte7">
+    <h3>LEGALIDADES </h3>
+    <ul>
+        <li><a href="politica.php?">Política de Privacidade</a></li>
+        <li><a href="cookies.php?">Política de Cookies</a></li>
+        <li><a href="termoscondicoes.php?">Termos e Condições</a></li>
+        <li>Reclamações </li>
+    </ul>
+</div>
+
 
 <div class="parte4">
     <h3>DÚVIDAS </h3>

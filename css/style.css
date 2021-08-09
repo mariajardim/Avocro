@@ -208,7 +208,7 @@
             width: 100%;
             height: 100%;
             margin-top: 225px;
-            margin-left: 10px;
+            margin-left: 0px;
          /*   background-color: lightseagreen; */
             float: left;
             }
@@ -229,6 +229,7 @@
             color: white;
             font-family: 'Open Sans', sans-serif;
             text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
+            margin-left: 10px;
             }
     }
  
@@ -247,6 +248,7 @@
             color: white;
             font-family: 'Open Sans', sans-serif;
             text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.25);
+            margin-left: 10px;
             }
     }
 
@@ -930,9 +932,6 @@
     }
 
 
-
-
-
 #youtube {
     width: 100%;
     height: 220px;
@@ -1004,7 +1003,7 @@
         height: 100%;
         float: left;
       /*  background-color: burlywood; */
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         display: flex;
         align-items: center;
         background-color:#E4E0DF;
@@ -1181,6 +1180,133 @@
     text-decoration: none;
     color : #FFFFFF;
     }
+    
+    #footer .parte7 {
+        display: none;
+        }
+    
+
+@media (max-width: 660px) {
+        
+      
+                #footer {
+                width: 100%;
+                height: 100%;
+                float: left;
+                background-color: #6F5853;
+                margin-bottom: 110px;
+                }
+
+                #footer h3 {
+                    color: white;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                    margin-bottom: 30px;
+                    }
+                
+
+            #footer .parte1 {
+                width: 50%;
+            /* background-color: tomato; */
+                float: left;
+                height: 100%;
+                }
+
+                #footer .parte1 li {
+                    list-style: none;
+                    color: white;
+                    font-size: 24px;
+                    margin-left: 10px;
+                    margin-bottom: 15px;
+                    } 
+
+            #footer .parte7 {
+                display: block;
+                width: 50%;
+            /*  background-color: orange; */
+                float: left;
+                height: 100%;
+                }
+
+                #footer .parte7 li {
+                    list-style: none;
+                    color: white;
+                    font-size: 24px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    } 
+
+            #footer .parte3 {
+                display: none;
+                }
+
+                #footer .parte2 {
+                    display: none;
+                    }
+
+                    
+                        #footer .parte4  {
+                            display: none;
+                            }  
+
+            #footer .parte5 {
+                width: 100%;
+            /*  background-color: blue; */
+                float: left;
+                height: 100%;
+                }
+            
+                #footer .parte5 h3 {
+                    display: none;
+                    }  
+
+                    #footer .parte5 ul {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        justify-content: center;
+                        }  
+
+                #footer .parte5 li {
+                    margin-left: 0px;
+                    margin-bottom: 0px;
+                    float: left;
+                    list-style: none;
+                    color: white;
+                    font-size: 60px;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    }
+
+
+            #footer .parte6 {
+                width: 100%;
+            /*   background-color: lightgreen; */
+                float: left;
+                height: 100%;
+                }
+
+                #footer .parte6 p {
+                    margin-right: 0px;
+                    text-align: center;
+                    margin-top: 0px;
+                    margin-bottom: 100px;
+                    float: right;
+                    list-style: none;
+                    color: white;
+                    font-size: 26px;
+                    width: 100%;
+                    } 
+
+            #footer a {
+                text-decoration: none;
+                color : #FFFFFF;
+                }
+}
+
 
 .branco {
     width: 100%;
