@@ -882,13 +882,12 @@
              padding: 10px;
              height: 100%;
              margin: 0px;
-             display: flex;
-             flex-direction: column;
          }
      
      #destaques .produtos li {
-         width: 100%;
+         width: 50%;
          height: 100%;
+         padding: 10px;
          float: left;
          list-style: none;
          /* margin-bottom: 10px; */
@@ -898,7 +897,7 @@
          }
      
      #destaques li .imagem {
-         height: 325px;
+         height: 250px;
          width: 100%;
          text-align: center;
          background: #F4F2F2;
@@ -934,14 +933,14 @@
              }
      
              #destaques li .produtodescricao p {
-                 font-size: 28px;
+                 font-size: 24px;
                  font-family: 'Open Sans', sans-serif;
                  color : #3F211A;
                  margin-bottom: 20px;
                  }
      
              #destaques li .produtodescricao .far {
-                 font-size: 32px;
+                 font-size: 24px;
                  margin-bottom: 25px;
                  margin-right: 5px;
                  color : #3F211A;
@@ -1613,6 +1612,7 @@
     text-transform: uppercase;
     margin-left: 168px;
     font-weight: bold;
+    color: #3F211A;
     } 
 
 
@@ -1673,6 +1673,7 @@
     opacity: 1;
     float: right;
     cursor: pointer;
+    color: #3F211A;
     }   
 
 
@@ -1694,20 +1695,147 @@
 .produtoswishlist li .produtodescricao p {
             font-size: 16px;
             font-family: 'Open Sans', sans-serif;
+            color: #3F211A;
             }
 
 .produtoswishlist li .produtodescricao .far {
         font-size: 16px;
         margin-bottom: 25px;
         margin-right: 5px;
+        color: #3F211A;
         }
+
+        @media (max-width: 660px) {
+        
+            .wishlist {
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 40px;
+                font-size: 14px;
+               /* background-color: hotpink; */
+                float: left;
+                } 
+            
+            .wishlist h1 {
+                font-size: 28px;
+                font-family: 'Open Sans', sans-serif;
+                float: left;
+                text-transform: uppercase;
+                margin-left: 10px;
+                font-weight: bold;
+                color: #3F211A;
+                } 
+            
+            
+            .produtoswishlist {
+              /* background-color: teal; */
+                height: 100%;
+                float: left;
+                width: 100%;
+                margin-bottom: 50px;
+                } 
+            
+            .produtoswishlist ul{
+                    margin-left: 0px;
+                    padding: 0;
+                    margin-right: 0px;
+                    margin-bottom: 0px;
+                    height: 100%;
+                 /*   background-color: yellow; */
+                }
+            
+            .produtoswishlist li {
+                width: 50%;
+                height: 100%;
+                padding:10px;
+                float: left;
+                list-style: none;
+                text-align: center;
+                margin:0px;
+                }
+            
+            .produtoswishlist li .imagem {
+                height: 250px;
+                width: 100%;
+                text-align: center;
+                background: #F4F2F2;
+                }
+            
+            
+            .produtoswishlist li .imagem .opacidade {
+                        height: 100%;
+                        width: 100%;
+                        text-align: right;
+                        opacity: 1;
+                        float: right;
+                        cursor: pointer;
+                        background-color: rgba(97, 100, 105, 0.2);
+                        }   
+            
+                        .produtoswishlist li .imagem .opacidade:hover {
+                            opacity: 1;
+                            background-color: rgba(97, 100, 105, 0.2);
+                            }   
+            
+            .produtoswishlist li .imagem .opacidade span {
+                font-size: 50px;
+                float: right;
+                margin-right: 10px;
+                margin-top: 0px;
+                opacity: 1;
+                float: right;
+                cursor: pointer;
+                color: #3F211A;
+                }   
+            
+            
+            .produtoswishlist li .imagemdescricao {
+                height: 100%;
+                width: 100%;
+              /*  background: pink; */
+                }
+            
+              .produtoswishlist li .produtodescricao {
+                   /* background: white; */
+                    margin-left: 5px;
+                    margin-top: 25px;
+                    float: left;
+                    text-align: left;
+                    width: calc(100% - 5px);
+                    }
+            
+            .produtoswishlist li .produtodescricao p {
+                        font-size: 16px;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #3F211A;
+                        }
+            
+            .produtoswishlist li .produtodescricao .far {
+                    font-size: 30px;
+                    margin-bottom: 25px;
+                    margin-right: 5px;
+                    color: #3F211A;
+                    }
+                }
+
+
 
 .falaconnosco {
     width: 50%;
     height: 568px;
-    font-size: 14px;
     float: left;
     } 
+
+    @media (max-width: 660px) {
+        
+        .falaconnosco {
+            width: 100%;
+            height: 100%;
+            float: left;
+            padding-right: 10px;
+            padding-left: 10px;
+            }
+            }
 
 .falaconnosco h1 {
     font-size: 14px;
@@ -1718,6 +1846,20 @@
     color: rgb(63, 33, 26);
     font-weight: bold;
     } 
+
+    @media (max-width: 660px) {
+        
+        .falaconnosco h1 {
+            font-size: 28px;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            margin-top: 50px;
+            color: rgb(63, 33, 26);
+            font-weight: bold;
+            margin-left: 0px;
+            } 
+
+            }
 
 .falaconnosco form {
     font-size: 14px;
@@ -1730,6 +1872,23 @@
     box-sizing: border-box;
     width: calc(100% - 268px);
     } 
+
+
+    @media (max-width: 660px) {
+        
+        .falaconnosco form {
+            font-size: 24px;
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            margin-top: 50px;
+            margin-left: 0px;
+            border: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            } 
+
+            }
 
 
 .falaconnosco .input-field  {
@@ -1763,12 +1922,50 @@
         color: rgb(63, 33, 26, 0.5);
       }
 
-/*form  select:hover,
-      select:focus,
-      select:active,
-      select:checked {
-        color: rgb(63, 33, 26, 1);
-      } */
+
+      @media (max-width: 660px) {
+        
+        .falaconnosco .input-field  {
+            margin-bottom: 100px;
+            } 
+        
+        .falaconnosco .input-field:last-child {
+                margin-bottom: 0px;
+                } 
+        
+                .falaconnosco .input-field input {
+                outline: none;
+                border: 0;
+                width: 100%;
+                color: rgb(63, 33, 26, 1);
+                margin-bottom:5px;
+                } 
+                .falaconnosco input::placeholder {
+                    color: rgb(63, 33, 26, 0.5);
+                    } 
+        
+            .falaconnosco form select {
+            outline: none;
+            border: 0;
+            width: 100%;
+            color: rgb(63, 33, 26, 1);
+            margin-bottom: 5px;
+            } 
+        
+            .falaconnosco select:invalid {
+                color: rgb(63, 33, 26, 0.5);
+              }
+
+
+              .falaconnosco form button{
+                width: 100%;
+                margin-bottom: 50px;
+                font-size: 24px;
+              }
+
+            }
+
+
 
 .falaconnosco .input-field textarea {
     outline: none;
@@ -1858,6 +2055,56 @@
                 font-size: 14px;
                 margin-top: 15px;
                 } 
+
+
+ @media (max-width: 660px) {
+        
+    .dadosdaempresa {
+        width: 100%;
+        height: 100%;
+       /* background-color: red; */
+        float: left;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        } 
+    
+    #map {
+        width: 100%;
+        height: 440px;
+       /* background-color: blue; */
+        float: left;
+        } 
+    
+    
+    .email {
+        width: 100%;
+        float: left;
+        } 
+    
+                .email li{
+                    float: left;
+                    color: #3F211A;
+                    list-style: none;
+                    font-size: 28px;
+                    margin-top: 35px;
+                }
+    
+            .telemovel {
+                width: 100%;
+                float: left;
+                } 
+        
+                .telemovel li{
+                    float: left;
+                    color: #3F211A;
+                    list-style: none;
+                    font-size: 28px;
+                    margin-top: 15px;
+                    }     
+
+            }
+
 
 
 .login {
