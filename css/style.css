@@ -45,6 +45,7 @@
         #header .logo {
             font-size : 60px;
             margin-left: 10px;
+            margin-top: 10px;
             }
     }
 
@@ -85,6 +86,10 @@
     #header .menufixo {
         display: none;
         }
+
+        #header .iconescima {
+            display: none;
+            }
 
 
 @media (max-width: 660px) {
@@ -139,7 +144,42 @@
                         font-size: 50px;
                         width: 100%;
                         color :#3F211A;
-    }   
+                        }   
+    
+    #header .iconescima {
+        display: flex;
+    height: 200px;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    flex-direction: row;
+    justify-content: flex-end;
+        
+        }
+
+
+        #header .iconescima .menuhamburguer label {
+            font-size: 50px;
+            color :#3F211A;
+            }
+
+            #header .iconescima .menuhamburguer {
+                width: 50%;
+                }
+            
+            #header .iconescima .carrinho {
+                height: 100px;
+                width: 100%;
+                text-align: right;
+                margin-bottom: 165px;
+                }
+
+            #header .iconescima .carrinho i  {
+                font-size: 50px;
+                color :#3F211A;
+                position: fixed;
+                margin-left: 15px;
+                }
 
 }
 
